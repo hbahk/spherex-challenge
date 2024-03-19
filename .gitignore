@@ -2,8 +2,11 @@
 BROWN_COSMOS
 fiducial_filters_102
 output
+output.*
 sed-vis.packaging
 *.pickle
+fsps_full
+*bkp
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
