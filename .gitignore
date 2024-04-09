@@ -7,6 +7,7 @@ sed-vis.packaging
 *.pickle
 fsps_full
 *bkp
+data
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
