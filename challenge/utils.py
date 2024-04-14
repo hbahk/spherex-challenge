@@ -108,7 +108,9 @@ def plot_comp_hexbin(
     xmin=0.03,
     xmax=30.0,
     cmap="viridis",
+    gridsize=(50, 50),
     scatter_plot=False,
+    log_scale=True,
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -137,67 +139,106 @@ def plot_comp_hexbin(
     z_cnd = (z_phot > 0.0) & (z_spec > 0.0) & (z_phot_chi2 > 0.0)
     print(f"Objects : {np.sum(z_cnd):d}")
 
-    dz = np.abs(z_spec - z_phot) / (1 + z_spec)
+    delta_z = z_spec - z_phot
+    dz = delta_z / (1 + z_spec)
+    bias = np.mean(dz[z_cnd])
     # Normalized Median Absolute Deviation (NMAD)
-    sigma = 1.48 * np.median(
-        np.abs(dz[z_cnd] - np.median(dz[z_cnd])) / (1 + z_spec[z_cnd])
+    nmad = 1.48 * np.median(
+        np.abs(delta_z[z_cnd] - np.median(delta_z[z_cnd])) / (1 + z_spec[z_cnd])
     )
+    sigma = np.std(dz[z_cnd])
+    
 
-    outlier = z_cnd & (dz >= 0.15)
+    outlier = z_cnd & (np.abs(dz) >= 0.15)
     print(f"Outliers: {np.sum(outlier):d}")
     print("\n")
 
-    logxmin, logxmax = np.log10(xmin), np.log10(xmax)
-
     fig, ax = plt.subplots(figsize=(12, 10))
 
-    hb = ax.hexbin(
-        np.log10(z_spec[z_cnd]),
-        np.log10(z_phot[z_cnd]),
-        gridsize=(25, 25),
-        cmap=cmap,
-        bins="log",
-    )
+    if log_scale:
+        logxmin, logxmax = np.log10(xmin), np.log10(xmax)
 
-    ax.plot([logxmin, logxmax], [logxmin, logxmax], "-", lw=1, color="k", alpha=0.75)
-    if scatter_plot:
-        ax.scatter(
-            np.log10(z_spec[z_cnd]), np.log10(z_phot[z_cnd]), c="k", s=0.5, alpha=0.5
+        hb = ax.hexbin(
+            np.log10(z_spec[z_cnd]),
+            np.log10(z_phot[z_cnd]),
+            gridsize=gridsize,
+            cmap=cmap,
+            bins="log",
         )
-    xx = np.logspace(logxmin, logxmax, 1000)
-    logxx = np.log10(xx)
-    logyy_lower = np.log10((1.0 - 0.15) * xx - 0.15)
-    logyy_upper = np.log10((1.0 + 0.15) * xx + 0.15)
-    ax.plot(logxx, logyy_lower, "--", lw=1, color="k", alpha=0.7)
-    ax.plot(logxx, logyy_upper, "--", lw=1, color="k", alpha=0.7)
-    ax.set_xlim([logxmin, logxmax])
-    ax.set_ylim([logxmin, logxmax])
+
+        ax.plot([logxmin, logxmax], [logxmin, logxmax], "-", lw=1, color="k", alpha=0.75)
+        if scatter_plot:
+            ax.scatter(
+                np.log10(z_spec[z_cnd]), np.log10(z_phot[z_cnd]), c="k", s=0.5, alpha=0.5
+            )
+        xx = np.logspace(logxmin, logxmax, 1000)
+        logxx = np.log10(xx)
+        logyy_lower = np.log10((1.0 - 0.15) * xx - 0.15)
+        logyy_upper = np.log10((1.0 + 0.15) * xx + 0.15)
+        ax.plot(logxx, logyy_lower, "--", lw=1, color="k", alpha=0.7)
+        ax.plot(logxx, logyy_upper, "--", lw=1, color="k", alpha=0.7)
+        
+        ticks = np.array([1e-2, 1e-1, 1, 2, 3, 4, 5, 6])
+        logticks = np.log10(ticks)
+        ax.set_xticks(logticks)
+        ax.set_yticks(logticks)
+        ax.set_xticklabels([f"{x:.2f}" if x < 1 else f"{int(x)}" for x in ticks])
+        ax.set_yticklabels([f"{x:.2f}" if x < 1 else f"{int(x)}" for x in ticks])
+        ax.set_xlim([logxmin, logxmax])
+        ax.set_ylim([logxmin, logxmax])
+    else:
+        hb = ax.hexbin(
+            z_spec[z_cnd], z_phot[z_cnd], gridsize=gridsize, cmap=cmap, bins="log",
+            extent=[xmin, xmax, xmin, xmax]
+        )
+
+        ax.plot([xmin, xmax], [xmin, xmax], "-", lw=1, color="k", alpha=0.75)
+        if scatter_plot:
+            ax.scatter(z_spec[z_cnd], z_phot[z_cnd], c="k", s=0.5, alpha=0.5)
+        xx = np.linspace(xmin, xmax, 1000)
+        ax.plot(xx, (1.0 - 0.15) * xx - 0.15, "--", lw=1, color="k", alpha=0.7)
+        ax.plot(xx, (1.0 + 0.15) * xx + 0.15, "--", lw=1, color="k", alpha=0.7)
+        ax.set_xlim([xmin, xmax])
+        ax.set_ylim([xmin, xmax])
 
     ax.set_xlabel(label_x)
     ax.set_ylabel(label_y)
     ax.tick_params(axis="both")
     ax.tick_params(width=1.5, length=7.5)
     ax.tick_params(width=1.5, length=4.0, which="minor")
+    
     ax.text(
+        0.95,
         0.05,
-        0.90,
         r"$N$"
-        + f" = {np.sum(z_cnd):d} ({np.sum(outlier):d},"
-        + f" {100.*np.sum(outlier)/np.sum(z_cnd):.1f}%)\n"
+        + f" = {np.sum(z_cnd):d}\n"
+        + r"$N_{\rm out}$"
+        + f" = {np.sum(outlier):d}\n"
+        + r"$\eta$"
+        + f" = {100.*np.sum(outlier)/np.sum(z_cnd):.1f}%\n"
         + r"$\sigma_{\rm NMAD}$"
-        + f" = {sigma:.3f}",
+        + f" = {nmad:.3f}\n"
+        + r"$\sigma$"
+        + f" = {sigma:.3f}\n"
+        + f"bias = {bias:.3f}",
         fontsize=18.0,
         color="black",
         bbox=dict(
-            facecolor="white", boxstyle="round,pad=0.5", edgecolor="none", alpha=0.5
+            facecolor="white", boxstyle="round,pad=0.5", edgecolor="k", alpha=0.8,
         ),
-        ha="left",
-        va="top",
+        ha="right",
+        va="bottom",
         transform=ax.transAxes,
     )
     ax.set_title(title)
+    
+    from mpl_toolkits.axes_grid1 import make_axes_locatable
+    divider = make_axes_locatable(ax)
+    cax = divider.append_axes("right", size="5%", pad=0.1)
+    cb = plt.colorbar(hb, cax=cax, label="counts")
+    ax.set_aspect("equal")
 
-    cb = plt.colorbar(hb, ax=ax, label="counts")
+    # cb = plt.colorbar(hb, ax=ax, label="counts")
 
     plt.tight_layout()
     plt.savefig(out, dpi=300)
