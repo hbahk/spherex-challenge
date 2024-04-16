@@ -8,8 +8,7 @@ sed-vis.packaging
 fsps_full
 *bkp
 data
-FILTERS+spherex.res
-FILTERS+spherex_nocut.res
+FILTERS+spherex*.res
 output_*
 
 # Byte-compiled / optimized / DLL files
