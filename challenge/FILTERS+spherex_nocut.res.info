@@ -416,27 +416,27 @@
   416 synthetic_i lambda_c= 7500. from-Antwi-Danso-2022-arXiv-2207.07170
   417 jwst_nirspec_f110w_trans.fits lambda_c= 1.15576e+04 JDox-Jan-2023
   418 jwst_nirspec_f140x_trans.fits lambda_c= 1.38014e+04 JDox-Jan-2023
-  419 SPHEREx_Band1_1 lambda_c= 7.6447e+03 AB-Vega= 0.360 w95=9992.6
-  420 SPHEREx_Band1_2 lambda_c= 7.8067e+03 AB-Vega= 0.387 w95=9711.2
-  421 SPHEREx_Band1_3 lambda_c= 8.0410e+03 AB-Vega= 0.424 w95=9346.2
-  422 SPHEREx_Band1_4 lambda_c= 8.2020e+03 AB-Vega= 0.452 w95=9084.0
-  423 SPHEREx_Band1_5 lambda_c= 8.4524e+03 AB-Vega= 0.484 w95=8761.8
-  424 SPHEREx_Band1_6 lambda_c= 8.5698e+03 AB-Vega= 0.508 w95=8682.3
-  425 SPHEREx_Band1_7 lambda_c= 8.7512e+03 AB-Vega= 0.553 w95=8377.5
-  426 SPHEREx_Band1_8 lambda_c= 8.9614e+03 AB-Vega= 0.535 w95=8026.9
-  427 SPHEREx_Band1_9 lambda_c= 9.4338e+03 AB-Vega= 0.550 w95=7737.0
-  428 SPHEREx_Band1_10 lambda_c= 9.3876e+03 AB-Vega= 0.518 w95=7399.9
-  429 SPHEREx_Band1_11 lambda_c= 9.8220e+03 AB-Vega= 0.561 w95=7028.0
-  430 SPHEREx_Band1_12 lambda_c= 9.8509e+03 AB-Vega= 0.545 w95=6689.0
-  431 SPHEREx_Band1_13 lambda_c= 9.9353e+03 AB-Vega= 0.572 w95=1186.8
-  432 SPHEREx_Band1_14 lambda_c= 1.0161e+04 AB-Vega= 0.620 w95=374.5
-  433 SPHEREx_Band1_15 lambda_c= 1.0397e+04 AB-Vega= 0.618 w95=1478.2
-  434 SPHEREx_Band1_16 lambda_c= 1.0681e+04 AB-Vega= 0.663 w95=1159.2
-  435 SPHEREx_Band1_17 lambda_c= 1.0944e+04 AB-Vega= 0.756 w95=378.8
-  436 SPHEREx_Band2_1 lambda_c= 1.0950e+04 AB-Vega= 0.763 w95=308.4
-  437 SPHEREx_Band2_2 lambda_c= 1.1217e+04 AB-Vega= 0.741 w95=310.7
-  438 SPHEREx_Band2_3 lambda_c= 1.1491e+04 AB-Vega= 0.777 w95=313.1
-  439 SPHEREx_Band2_4 lambda_c= 1.1774e+04 AB-Vega= 0.820 w95=321.6
+  419 SPHEREx_Band1_1 lambda_c= 7.4507e+03 AB-Vega= 0.352 w95=250.0
+  420 SPHEREx_Band1_2 lambda_c= 7.6290e+03 AB-Vega= 0.381 w95=246.1
+  421 SPHEREx_Band1_3 lambda_c= 7.8118e+03 AB-Vega= 0.413 w95=246.8
+  422 SPHEREx_Band1_4 lambda_c= 8.0001e+03 AB-Vega= 0.443 w95=249.4
+  423 SPHEREx_Band1_5 lambda_c= 8.1957e+03 AB-Vega= 0.473 w95=256.1
+  424 SPHEREx_Band1_6 lambda_c= 8.3952e+03 AB-Vega= 0.502 w95=259.3
+  425 SPHEREx_Band1_7 lambda_c= 8.5975e+03 AB-Vega= 0.549 w95=261.7
+  426 SPHEREx_Band1_8 lambda_c= 8.8060e+03 AB-Vega= 0.528 w95=267.4
+  427 SPHEREx_Band1_9 lambda_c= 9.0207e+03 AB-Vega= 0.497 w95=272.9
+  428 SPHEREx_Band1_10 lambda_c= 9.2416e+03 AB-Vega= 0.510 w95=279.2
+  429 SPHEREx_Band1_11 lambda_c= 9.4665e+03 AB-Vega= 0.516 w95=285.0
+  430 SPHEREx_Band1_12 lambda_c= 9.6924e+03 AB-Vega= 0.534 w95=290.9
+  431 SPHEREx_Band1_13 lambda_c= 9.9311e+03 AB-Vega= 0.570 w95=296.8
+  432 SPHEREx_Band1_14 lambda_c= 1.0174e+04 AB-Vega= 0.622 w95=303.5
+  433 SPHEREx_Band1_15 lambda_c= 1.0426e+04 AB-Vega= 0.621 w95=311.6
+  434 SPHEREx_Band1_16 lambda_c= 1.0679e+04 AB-Vega= 0.664 w95=318.7
+  435 SPHEREx_Band1_17 lambda_c= 1.0943e+04 AB-Vega= 0.757 w95=327.2
+  436 SPHEREx_Band2_1 lambda_c= 1.0944e+04 AB-Vega= 0.763 w95=297.4
+  437 SPHEREx_Band2_2 lambda_c= 1.1214e+04 AB-Vega= 0.741 w95=305.4
+  438 SPHEREx_Band2_3 lambda_c= 1.1491e+04 AB-Vega= 0.777 w95=313.4
+  439 SPHEREx_Band2_4 lambda_c= 1.1774e+04 AB-Vega= 0.820 w95=321.7
   440 SPHEREx_Band2_5 lambda_c= 1.2065e+04 AB-Vega= 0.857 w95=329.8
   441 SPHEREx_Band2_6 lambda_c= 1.2363e+04 AB-Vega= 0.897 w95=338.7
   442 SPHEREx_Band2_7 lambda_c= 1.2669e+04 AB-Vega= 0.960 w95=347.7
@@ -445,10 +445,10 @@
   445 SPHEREx_Band2_10 lambda_c= 1.3630e+04 AB-Vega= 1.060 w95=375.3
   446 SPHEREx_Band2_11 lambda_c= 1.3966e+04 AB-Vega= 1.101 w95=385.2
   447 SPHEREx_Band2_12 lambda_c= 1.4311e+04 AB-Vega= 1.144 w95=395.3
-  448 SPHEREx_Band2_13 lambda_c= 1.4665e+04 AB-Vega= 1.185 w95=405.1
+  448 SPHEREx_Band2_13 lambda_c= 1.4665e+04 AB-Vega= 1.185 w95=405.2
   449 SPHEREx_Band2_14 lambda_c= 1.5027e+04 AB-Vega= 1.225 w95=415.4
-  450 SPHEREx_Band2_15 lambda_c= 1.5397e+04 AB-Vega= 1.270 w95=426.2
-  451 SPHEREx_Band2_16 lambda_c= 1.5778e+04 AB-Vega= 1.320 w95=437.2
+  450 SPHEREx_Band2_15 lambda_c= 1.5397e+04 AB-Vega= 1.270 w95=426.4
+  451 SPHEREx_Band2_16 lambda_c= 1.5778e+04 AB-Vega= 1.320 w95=437.5
   452 SPHEREx_Band2_17 lambda_c= 1.6167e+04 AB-Vega= 1.350 w95=448.0
   453 SPHEREx_Band3_1 lambda_c= 1.6171e+04 AB-Vega= 1.350 w95=429.4
   454 SPHEREx_Band3_2 lambda_c= 1.6568e+04 AB-Vega= 1.383 w95=441.3
@@ -463,27 +463,27 @@
   463 SPHEREx_Band3_11 lambda_c= 2.0620e+04 AB-Vega= 1.752 w95=560.7
   464 SPHEREx_Band3_12 lambda_c= 2.1129e+04 AB-Vega= 1.800 w95=574.2
   465 SPHEREx_Band3_13 lambda_c= 2.1648e+04 AB-Vega= 1.874 w95=588.3
-  466 SPHEREx_Band3_14 lambda_c= 2.2181e+04 AB-Vega= 1.892 w95=604.2
+  466 SPHEREx_Band3_14 lambda_c= 2.2181e+04 AB-Vega= 1.892 w95=604.3
   467 SPHEREx_Band3_15 lambda_c= 2.2727e+04 AB-Vega= 1.938 w95=618.6
-  468 SPHEREx_Band3_16 lambda_c= 2.3285e+04 AB-Vega= 1.983 w95=630.4
-  469 SPHEREx_Band3_17 lambda_c= 2.3825e+04 AB-Vega= 2.026 w95=612.9
-  470 SPHEREx_Band4_1 lambda_c= 2.4012e+04 AB-Vega= 2.041 w95=728.7
-  471 SPHEREx_Band4_2 lambda_c= 2.4530e+04 AB-Vega= 2.084 w95=763.0
-  472 SPHEREx_Band4_3 lambda_c= 2.5202e+04 AB-Vega= 2.138 w95=832.9
-  473 SPHEREx_Band4_4 lambda_c= 2.5931e+04 AB-Vega= 2.208 w95=855.5
-  474 SPHEREx_Band4_5 lambda_c= 2.6681e+04 AB-Vega= 2.256 w95=880.8
-  475 SPHEREx_Band4_6 lambda_c= 2.7453e+04 AB-Vega= 2.304 w95=903.9
-  476 SPHEREx_Band4_7 lambda_c= 2.8248e+04 AB-Vega= 2.347 w95=930.2
-  477 SPHEREx_Band4_8 lambda_c= 2.9065e+04 AB-Vega= 2.412 w95=954.4
-  478 SPHEREx_Band4_9 lambda_c= 2.9906e+04 AB-Vega= 2.459 w95=980.5
-  479 SPHEREx_Band4_10 lambda_c= 3.0772e+04 AB-Vega= 2.523 w95=1006.6
-  480 SPHEREx_Band4_11 lambda_c= 3.1663e+04 AB-Vega= 2.568 w95=1034.9
-  481 SPHEREx_Band4_12 lambda_c= 3.2579e+04 AB-Vega= 2.635 w95=1062.4
-  482 SPHEREx_Band4_13 lambda_c= 3.3522e+04 AB-Vega= 2.686 w95=1093.1
-  483 SPHEREx_Band4_14 lambda_c= 3.4493e+04 AB-Vega= 2.738 w95=1121.8
-  484 SPHEREx_Band4_15 lambda_c= 3.5491e+04 AB-Vega= 2.795 w95=1151.8
-  485 SPHEREx_Band4_16 lambda_c= 3.6518e+04 AB-Vega= 2.854 w95=1174.4
-  486 SPHEREx_Band4_17 lambda_c= 3.7575e+04 AB-Vega= 2.925 w95=1209.7
+  468 SPHEREx_Band3_16 lambda_c= 2.3285e+04 AB-Vega= 1.983 w95=630.5
+  469 SPHEREx_Band3_17 lambda_c= 2.3825e+04 AB-Vega= 2.026 w95=613.3
+  470 SPHEREx_Band4_1 lambda_c= 2.4016e+04 AB-Vega= 2.042 w95=754.2
+  471 SPHEREx_Band4_2 lambda_c= 2.4531e+04 AB-Vega= 2.084 w95=764.8
+  472 SPHEREx_Band4_3 lambda_c= 2.5202e+04 AB-Vega= 2.138 w95=834.4
+  473 SPHEREx_Band4_4 lambda_c= 2.5931e+04 AB-Vega= 2.208 w95=857.7
+  474 SPHEREx_Band4_5 lambda_c= 2.6681e+04 AB-Vega= 2.256 w95=883.1
+  475 SPHEREx_Band4_6 lambda_c= 2.7453e+04 AB-Vega= 2.304 w95=906.4
+  476 SPHEREx_Band4_7 lambda_c= 2.8248e+04 AB-Vega= 2.347 w95=932.9
+  477 SPHEREx_Band4_8 lambda_c= 2.9066e+04 AB-Vega= 2.412 w95=957.3
+  478 SPHEREx_Band4_9 lambda_c= 2.9907e+04 AB-Vega= 2.459 w95=983.6
+  479 SPHEREx_Band4_10 lambda_c= 3.0772e+04 AB-Vega= 2.523 w95=1009.9
+  480 SPHEREx_Band4_11 lambda_c= 3.1663e+04 AB-Vega= 2.568 w95=1038.4
+  481 SPHEREx_Band4_12 lambda_c= 3.2579e+04 AB-Vega= 2.635 w95=1066.3
+  482 SPHEREx_Band4_13 lambda_c= 3.3522e+04 AB-Vega= 2.686 w95=1097.1
+  483 SPHEREx_Band4_14 lambda_c= 3.4493e+04 AB-Vega= 2.738 w95=1126.1
+  484 SPHEREx_Band4_15 lambda_c= 3.5491e+04 AB-Vega= 2.795 w95=1156.4
+  485 SPHEREx_Band4_16 lambda_c= 3.6518e+04 AB-Vega= 2.854 w95=1179.2
+  486 SPHEREx_Band4_17 lambda_c= 3.7575e+04 AB-Vega= 2.925 w95=1214.9
   487 SPHEREx_Band5_1 lambda_c= 3.7997e+04 AB-Vega= 2.935 w95=412.9
   488 SPHEREx_Band5_2 lambda_c= 3.8345e+04 AB-Vega= 2.955 w95=417.1
   489 SPHEREx_Band5_3 lambda_c= 3.8696e+04 AB-Vega= 2.968 w95=421.1
@@ -512,9 +512,9 @@
   512 SPHEREx_Band6_9 lambda_c= 4.6796e+04 AB-Vega= 3.388 w95=488.0
   513 SPHEREx_Band6_10 lambda_c= 4.7158e+04 AB-Vega= 3.370 w95=490.2
   514 SPHEREx_Band6_11 lambda_c= 4.7523e+04 AB-Vega= 3.383 w95=492.6
-  515 SPHEREx_Band6_12 lambda_c= 4.7891e+04 AB-Vega= 3.398 w95=495.3
-  516 SPHEREx_Band6_13 lambda_c= 4.8261e+04 AB-Vega= 3.414 w95=498.6
-  517 SPHEREx_Band6_14 lambda_c= 4.8634e+04 AB-Vega= 3.430 w95=500.8
-  518 SPHEREx_Band6_15 lambda_c= 4.9011e+04 AB-Vega= 3.446 w95=502.8
-  519 SPHEREx_Band6_16 lambda_c= 4.9390e+04 AB-Vega= 3.462 w95=504.9
-  520 SPHEREx_Band6_17 lambda_c= 4.9772e+04 AB-Vega= 3.478 w95=506.7
+  515 SPHEREx_Band6_12 lambda_c= 4.7891e+04 AB-Vega= 3.398 w95=495.4
+  516 SPHEREx_Band6_13 lambda_c= 4.8261e+04 AB-Vega= 3.414 w95=498.7
+  517 SPHEREx_Band6_14 lambda_c= 4.8634e+04 AB-Vega= 3.430 w95=501.0
+  518 SPHEREx_Band6_15 lambda_c= 4.9011e+04 AB-Vega= 3.446 w95=503.0
+  519 SPHEREx_Band6_16 lambda_c= 4.9390e+04 AB-Vega= 3.462 w95=505.2
+  520 SPHEREx_Band6_17 lambda_c= 4.9772e+04 AB-Vega= 3.477 w95=507.0

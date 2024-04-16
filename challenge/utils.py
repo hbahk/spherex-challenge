@@ -13,6 +13,56 @@ from astropy.table import Table
 from eazy import filters, utils
 
 
+def reduce_filter(filt, epsilon_rdp=1e-5):
+    """
+    Reduce the number of points in the filter curve using the Ramer-Douglas-Peucker
+    (RDP) algorithm. The filter curve is first smoothed using a median filter, then the
+    pivot wavelength is calculated. The curve is then clipped around the pivot
+    wavelength and the RDP algorithm is applied to the clipped curve.
+
+    Parameters:
+    filt (FilterDefinition): The filter curve to be reduced.
+    epsilon_rdp (float, optional): The epsilon value for the RDP algorithm.
+        Default is 1e-5.
+
+    Returns:
+    wave_rdp (array-like): The reduced wavelength array.
+    thru_rdp (array-like): The reduced throughput array.
+    """
+    from scipy import signal
+    from rdp import rdp
+
+    thru_med = signal.medfilt(filt.throughput, kernel_size=5)
+
+    pivot = np.sqrt(
+        np.trapz(thru_med * filt.wave, filt.wave)
+        / np.trapz(thru_med / filt.wave, filt.wave)
+    )
+
+    clip_mask = (filt.wave > pivot - 3 * filt.rectwidth) & (
+        filt.wave < pivot + 3 * filt.rectwidth
+    )
+    wave_clip, thru_med_clip = filt.wave[clip_mask], thru_med[clip_mask]
+
+    pivot_clip = np.sqrt(
+        np.trapz(thru_med_clip * wave_clip, wave_clip)
+        / np.trapz(thru_med_clip / wave_clip, wave_clip)
+    )
+
+    clip_mask_2nd = (filt.wave > pivot_clip - 1.5 * filt.rectwidth) & (
+        filt.wave < pivot_clip + 1.5 * filt.rectwidth
+    )
+    wave_clip_2nd, thru_med_clip_2nd = filt.wave[clip_mask_2nd], thru_med[clip_mask_2nd]
+
+    # Ramer-Douglas-Peucker algorithm.
+    rdp_reduced = rdp(
+        np.array([wave_clip_2nd, thru_med_clip_2nd]).T, epsilon=epsilon_rdp
+    )
+    wave_rdp, thru_rdp = rdp_reduced.T
+
+    return wave_rdp, thru_rdp
+
+
 def make_eazy_filters_spherex(filtdir, out, Nchan=17, Ndet=6, threshold=1e-5,
                               path_default_filter=os.path.join(utils.path_to_eazy_data(), 'FILTER.RES.latest')):
     
