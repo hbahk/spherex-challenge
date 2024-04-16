@@ -9,6 +9,7 @@ fsps_full
 *bkp
 data
 FILTERS+spherex.res
+FILTERS+spherex_nocut.res
 output_*
 
 # Byte-compiled / optimized / DLL files
