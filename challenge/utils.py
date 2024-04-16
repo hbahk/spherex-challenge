@@ -63,7 +63,7 @@ def reduce_filter(filt, epsilon_rdp=1e-5):
     return wave_rdp, thru_rdp
 
 
-def make_eazy_filters_spherex(filtdir, out, Nchan=17, Ndet=6, threshold=1e-5,
+def make_eazy_filters_spherex(filtdir, out, Nchan=17, Ndet=6, epsilon_rdp=1e-5,
                               path_default_filter=os.path.join(utils.path_to_eazy_data(), 'FILTER.RES.latest')):
     
     latest_filters = filters.FilterFile(path_default_filter)
@@ -74,10 +74,9 @@ def make_eazy_filters_spherex(filtdir, out, Nchan=17, Ndet=6, threshold=1e-5,
                 filt = Table.read(filtdir/f'filt_det{j+1}_{i+1}.csv',
                                   format='ascii.no_header',
                                   names=['wave', 'throughput'])
-                wmask = filt['throughput'] > threshold
-                res = filters.FilterDefinition(wave=filt['wave'][wmask],
-                                            throughput=filt['throughput'][wmask],
-                                            name=f'SPHEREx_Band{j+1}_{i+1}')
+                wred, tred = reduce_filter(filt, epsilon_rdp)
+                res = filters.FilterDefinition(wave=wred, throughput=tred,
+                                               name=f'SPHEREx_Band{j+1}_{i+1}')
                 f.write(res.for_filter_file() + '\n')
 
     temp_filters = filters.FilterFile('tempfile')
