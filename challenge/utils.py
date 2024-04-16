@@ -74,7 +74,11 @@ def make_eazy_filters_spherex(filtdir, out, Nchan=17, Ndet=6, epsilon_rdp=1e-5,
                 filt = Table.read(filtdir/f'filt_det{j+1}_{i+1}.csv',
                                   format='ascii.no_header',
                                   names=['wave', 'throughput'])
-                wred, tred = reduce_filter(filt, epsilon_rdp)
+                res = filters.FilterDefinition(wave=filt['wave'],
+                                               throughput=filt['throughput'],
+                                               name=f'SPHEREx_Band{j+1}_{i+1}')
+                wred, tred = reduce_filter(res, epsilon_rdp)
+                
                 res = filters.FilterDefinition(wave=wred, throughput=tred,
                                                name=f'SPHEREx_Band{j+1}_{i+1}')
                 f.write(res.for_filter_file() + '\n')
