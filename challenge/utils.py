@@ -20,7 +20,7 @@ def combine_photometries(filters, fluxes, errors):
     can be represented by the sum of the individual filter response curves,
     the combined flux is given by:
     
-    $$f_{\rm combined} = \frac{\sum_i w_i f_i}{\sum_i w_i}$$
+    $$f_{\lambda,{\rm combined}} = \frac{\sum_i w_i f_{\lambda,i}}{\sum_i w_i}$$
         
     where $f_i$ is the flux in the $i$-th filter, and $w_i$ is the weight
     of the $i$-th filter,
@@ -37,14 +37,19 @@ def combine_photometries(filters, fluxes, errors):
     
     Parameters:
     filters (list): List of filter objects.
-    fluxes (array-like): Array of fluxes in each filter.
-    errors (array-like): Array of errors in each filter.
+    fluxes (array-like): Array of fluxes in each filter, in uJy.
+    errors (array-like): Array of errors in each filter, in uJy.
     
     Returns:
     flux_combined (float): The combined flux.
     error_combined (float): The error of the combined flux.
     pivot_combined (float): The pivot wavelength of the combined filter.
     """
+    # conversion from uJy to erg/s/cm^2/A
+    pivots = np.array([filt.pivot for filt in filters])
+    fluxes = fnu_to_flam(pivots, fluxes)
+    errors = fnu_to_flam(pivots, errors)
+    
     weights = np.empty(len(filters), dtype=float)
     for i, filt in enumerate(filters):
         if not hasattr(filt, "weight"):
@@ -58,6 +63,10 @@ def combine_photometries(filters, fluxes, errors):
         [filt.pivot**2 for filt in filters], weights=[filt.norm for filt in filters]
     )
     pivot_combined = np.sqrt(pivot_combined_squred)
+    
+    # conversion from erg/s/cm^2/A to uJy
+    flux_combined = flam_to_fnu(pivot_combined, flux_combined)
+    error_combined = flam_to_fnu(pivot_combined, error_combined)
 
     return flux_combined, error_combined, pivot_combined
 
