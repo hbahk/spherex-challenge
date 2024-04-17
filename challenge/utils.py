@@ -13,6 +13,55 @@ from astropy.table import Table
 from eazy import filters, utils
 
 
+def combine_photometries(filters, fluxes, errors):
+    """
+    Combine fluxes from multiple filters using the weighted average method.
+    Under the assumption that the filter response curve of combined filters
+    can be represented by the sum of the individual filter response curves,
+    the combined flux is given by:
+    
+    $$f_{\rm combined} = \frac{\sum_i w_i f_i}{\sum_i w_i}$$
+        
+    where $f_i$ is the flux in the $i$-th filter, and $w_i$ is the weight
+    of the $i$-th filter,
+    
+    $$w_i = \int T_i * \lambda d \lambda$$
+    
+    where $T_i$ is the throughput of the $i$-th filter. The error of the
+    combined flux is given by:
+    
+    $$\sigma_{\rm combined} = \sqrt{\frac{\sum_i (\sigma_i^2 * w_i^2)}{(\sum_i w_i)^2}}$$.
+    
+    Similarly, the pivot wavelength of the combined filter is given by:
+    $$\lambda_p^2 = \frac{\sum_i \lambda_{p,i}^2 \int T_i/\lambda d\lambda}{\sum_i \int T_i/\lambda d\lambda}$$.
+    
+    Parameters:
+    filters (list): List of filter objects.
+    fluxes (array-like): Array of fluxes in each filter.
+    errors (array-like): Array of errors in each filter.
+    
+    Returns:
+    flux_combined (float): The combined flux.
+    error_combined (float): The error of the combined flux.
+    pivot_combined (float): The pivot wavelength of the combined filter.
+    """
+    weights = np.empty(len(filters), dtype=float)
+    for i, filt in enumerate(filters):
+        if not hasattr(filt, "weight"):
+            filt.weight = np.trapz(filt.throughput * filt.wave, filt.wave)
+        weights[i] = filt.weight
+    print(weights.shape)
+    flux_combined = np.average(fluxes, weights=weights)
+    error_combined = np.sqrt(np.sum(errors**2 * weights**2 / weights.sum() ** 2))
+
+    pivot_combined_squred = np.average(
+        [filt.pivot**2 for filt in filters], weights=[filt.norm for filt in filters]
+    )
+    pivot_combined = np.sqrt(pivot_combined_squred)
+
+    return flux_combined, error_combined, pivot_combined
+
+
 def reduce_filter(filt, epsilon_rdp=1e-5):
     """
     Reduce the number of points in the filter curve using the Ramer-Douglas-Peucker
