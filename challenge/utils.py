@@ -49,21 +49,29 @@ def combine_photometries(filters, fluxes, errors):
     pivots = np.array([filt.pivot for filt in filters])
     fluxes = fnu_to_flam(pivots, fluxes)
     errors = fnu_to_flam(pivots, errors)
-    
+
     weights = np.empty(len(filters), dtype=float)
     for i, filt in enumerate(filters):
         if not hasattr(filt, "weight"):
             filt.weight = np.trapz(filt.throughput * filt.wave, filt.wave)
         weights[i] = filt.weight
-    print(weights.shape)
-    flux_combined = np.average(fluxes, weights=weights)
-    error_combined = np.sqrt(np.sum(errors**2 * weights**2 / weights.sum() ** 2))
+
+    if fluxes.shape[0] != len(filters):
+        flux_combined = np.average(fluxes, weights=weights, axis=1)
+        error_combined = np.sqrt(
+            np.sum(errors**2 * weights**2 / weights.sum() ** 2, axis=1)
+        )
+    else:
+        flux_combined = np.average(fluxes, weights=weights, axis=0)
+        error_combined = np.sqrt(
+            np.sum(errors**2 * weights**2 / weights.sum() ** 2, axis=0)
+        )
 
     pivot_combined_squred = np.average(
         [filt.pivot**2 for filt in filters], weights=[filt.norm for filt in filters]
     )
     pivot_combined = np.sqrt(pivot_combined_squred)
-    
+
     # conversion from erg/s/cm^2/A to uJy
     flux_combined = flam_to_fnu(pivot_combined, flux_combined)
     error_combined = flam_to_fnu(pivot_combined, error_combined)
@@ -119,6 +127,24 @@ def reduce_filter(filt, epsilon_rdp=1e-5):
     wave_rdp, thru_rdp = rdp_reduced.T
 
     return wave_rdp, thru_rdp
+
+
+def combine_filter_response(filters):
+    # resample filters into the common wavelength grid
+    mean_sampling = np.mean([np.min(np.diff(filt.wave)) for filt in filters])
+    all_waves = np.concatenate([filt.wave for filt in filters])
+    wavemin, wavemax = all_waves.min(), all_waves.max()
+    wave_common = np.arange(wavemin, wavemax, mean_sampling)
+
+    throughputs = np.zeros((len(filters), len(wave_common)))
+    for i, filt in enumerate(filters):
+        throughputs[i] = np.interp(
+            wave_common, filt.wave, filt.throughput, left=0, right=0
+        )
+
+    throughputs_combined = np.sum(throughputs, axis=0)
+
+    return wave_common, throughputs_combined
 
 
 def make_eazy_filters_spherex(filtdir, out, Nchan=17, Ndet=6, epsilon_rdp=1e-5,
