@@ -10,6 +10,7 @@ fsps_full
 data
 FILTERS+spherex*.res
 output_*
+templates
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
