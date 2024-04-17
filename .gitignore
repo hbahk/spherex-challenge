@@ -8,7 +8,7 @@ sed-vis.packaging
 fsps_full
 *bkp
 data
-FILTERS+spherex*.res
+*.res
 output_*
 templates
 
