@@ -30,10 +30,10 @@ def combine_photometries(filters, fluxes, errors):
     where $T_i$ is the throughput of the $i$-th filter. The error of the
     combined flux is given by:
     
-    $$\sigma_{\rm combined} = \sqrt{\frac{\sum_i (\sigma_i^2 * w_i^2)}{(\sum_i w_i)^2}}$$.
+    $$\sigma_{\rm combined} = \sqrt{ \frac{\sum_i \sigma_i^2 w_i^2}{(\sum_i w_i)^2}}$$ .
     
     Similarly, the pivot wavelength of the combined filter is given by:
-    $$\lambda_p^2 = \frac{\sum_i \lambda_{p,i}^2 \int T_i/\lambda d\lambda}{\sum_i \int T_i/\lambda d\lambda}$$.
+    $$ \lambda_p^2 = \frac{\sum_i \lambda_{p,i}^2 \int T_i/\lambda d \lambda}{\sum_i \int T_i/ \lambda d \lambda }.$$
     
     Parameters:
     filters (list): List of filter objects.
