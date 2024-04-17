@@ -25,7 +25,7 @@ def combine_photometries(filters, fluxes, errors):
     where $f_i$ is the flux in the $i$-th filter, and $w_i$ is the weight
     of the $i$-th filter,
     
-    $$w_i = \int T_i * \lambda d \lambda$$
+    $$w_i = \int T_i \lambda d \lambda$$
     
     where $T_i$ is the throughput of the $i$-th filter. The error of the
     combined flux is given by:
