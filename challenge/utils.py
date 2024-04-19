@@ -239,6 +239,8 @@ def plot_comp_hexbin(
     z_phot_chi2,
     out,
     ids,
+    z_840=None,
+    z_160=None,
     label_x="",
     label_y="",
     title="",
@@ -249,6 +251,10 @@ def plot_comp_hexbin(
     scatter_plot=False,
     log_scale=True,
     color_log_scale=True,
+    residual_plot=False,
+    residual_ylabel=r"$\Delta z / (1+z)$",
+    residual_ylim=None,
+    figsize=(12, 10),
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -260,6 +266,8 @@ def plot_comp_hexbin(
     - z_phot_chi2 (array-like): Array of chi-squared values for photometric redshifts.
     - out (str): Output file path for saving the plot.
     - ids (array-like): Array of object IDs.
+    - z_840 (array-like, optional): Array of 84th percentile redshifts. Default is None.
+    - z_160 (array-like, optional): Array of 16th percentile redshifts. Default is None.
     - label_x (str, optional): Label for the x-axis. Default is an empty string.
     - label_y (str, optional): Label for the y-axis. Default is an empty string.
     - title (str, optional): Title for the plot. Default is an empty string.
@@ -289,13 +297,27 @@ def plot_comp_hexbin(
         np.abs(delta_z[z_cnd] - np.median(delta_z[z_cnd])) / (1 + z_spec[z_cnd])
     )
     sigma = np.std(dz[z_cnd])
-    
 
     outlier = z_cnd & (np.abs(dz) >= 0.15)
     print(f"Outliers: {np.sum(outlier):d}")
     print("\n")
 
-    fig, ax = plt.subplots(figsize=(12, 10))
+    if z_840 is not None and z_160 is not None:
+        sigz = (np.max([z_840 - z_phot, z_phot - z_160], axis=0) / (1 + z_phot))
+        medsigz = np.median(sigz[z_cnd])
+
+        outsigz = z_cnd & (np.abs(dz) > 3*sigz)
+        outsigzfrac = np.sum(outsigz) / np.sum(z_cnd) * 100.
+
+        text_append = (
+            "\n"
+            + r"$\tilde{\sigma}_{z/(1+z)}$" + f" = {medsigz:.1f}%\n"
+            + r"$\eta_{3\hat{\sigma}}$" + f" = {outsigzfrac:.1f}%"
+        )
+    else:
+        text_append = ""
+
+    fig, ax = plt.subplots(figsize=figsize)
 
     bins = "log" if color_log_scale else None
 
@@ -322,7 +344,7 @@ def plot_comp_hexbin(
         logyy_upper = np.log10((1.0 + 0.15) * xx + 0.15)
         ax.plot(logxx, logyy_lower, "--", lw=1, color="k", alpha=0.7)
         ax.plot(logxx, logyy_upper, "--", lw=1, color="k", alpha=0.7)
-        
+
         ticks = np.array([1e-2, 1e-1, 1, 2, 3, 4, 5, 6])
         logticks = np.log10(ticks)
         ax.set_xticks(logticks)
@@ -348,10 +370,11 @@ def plot_comp_hexbin(
 
     ax.set_xlabel(label_x)
     ax.set_ylabel(label_y)
-    ax.tick_params(axis="both")
-    ax.tick_params(width=1.5, length=7.5)
-    ax.tick_params(width=1.5, length=4.0, which="minor")
     
+    ax.tick_params(axis="both")
+    ax.tick_params(width=0.8, length=7.5)
+    ax.tick_params(width=0.8, length=4.0, which="minor")
+
     ax.text(
         0.95,
         0.05,
@@ -365,7 +388,8 @@ def plot_comp_hexbin(
         + f" = {nmad:.3f}\n"
         + r"$\sigma$"
         + f" = {sigma:.3f}\n"
-        + f"bias = {bias:.3f}",
+        + f"bias = {bias:.3f}"
+        + text_append,
         fontsize=18.0,
         color="black",
         bbox=dict(
@@ -376,14 +400,41 @@ def plot_comp_hexbin(
         transform=ax.transAxes,
     )
     ax.set_title(title)
-    
+
     from mpl_toolkits.axes_grid1 import make_axes_locatable
     divider = make_axes_locatable(ax)
     cax = divider.append_axes("right", size="5%", pad=0.1)
     cb = plt.colorbar(hb, cax=cax, label="counts")
+    
     ax.set_aspect("equal")
+    ax.tick_params(axis="both", which="minor")
+    ax.tick_params(axis="both", direction="in", which="both")
 
-    # cb = plt.colorbar(hb, ax=ax, label="counts")
+    if residual_plot:
+        rax = divider.append_axes("bottom", size="20%", pad=0)
+        ax.set_xticklabels([])
+        if z_840 is not None and z_160 is not None:
+            yerr = sigz[z_cnd]
+        else:
+            yerr = None
+        if log_scale:
+            xx = np.log10(z_spec[z_cnd])
+            rax.set_xlim([logxmin, logxmax])
+        else:
+            xx = z_spec[z_cnd]
+            rax.set_xlim([xmin, xmax])
+            
+        rax.errorbar(xx, dz[z_cnd], yerr=yerr, fmt="o", ms=3, lw=0.8, mfc="w", mec="k", ecolor="k", alpha=0.5)
+        rax.plot([xmin, xmax], [0, 0], "-", lw=0.8, color="k", alpha=0.75)
+        rax.plot([xmin, xmax], [0.15, 0.15], "--", lw=0.8, color="k", alpha=0.75)
+        rax.plot([xmin, xmax], [-0.15, -0.15], "--", lw=0.8, color="k", alpha=0.75)
+        
+        rax.set_xlabel(label_x)
+        rax.set_ylabel(residual_ylabel)
+        
+        if residual_ylim:
+            rax.set_ylim(residual_ylim)
+            
 
     plt.tight_layout()
     plt.savefig(out, dpi=300)
