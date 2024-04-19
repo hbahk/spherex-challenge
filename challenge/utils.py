@@ -308,6 +308,7 @@ def plot_comp_hexbin(
             gridsize=gridsize,
             cmap=cmap,
             bins=bins,
+            mincnt=1,
         )
 
         ax.plot([logxmin, logxmax], [logxmin, logxmax], "-", lw=1, color="k", alpha=0.75)
@@ -333,7 +334,7 @@ def plot_comp_hexbin(
     else:
         hb = ax.hexbin(
             z_spec[z_cnd], z_phot[z_cnd], gridsize=gridsize, cmap=cmap, bins=bins,
-            extent=[xmin, xmax, xmin, xmax]
+            extent=[xmin, xmax, xmin, xmax], mincnt=1
         )
 
         ax.plot([xmin, xmax], [xmin, xmax], "-", lw=1, color="k", alpha=0.75)
@@ -358,7 +359,7 @@ def plot_comp_hexbin(
         + f" = {np.sum(z_cnd):d}\n"
         + r"$N_{\rm out}$"
         + f" = {np.sum(outlier):d}\n"
-        + r"$\eta$"
+        + r"$f_{0.15}$"
         + f" = {100.*np.sum(outlier)/np.sum(z_cnd):.1f}%\n"
         + r"$\sigma_{\rm NMAD}$"
         + f" = {nmad:.3f}\n"
