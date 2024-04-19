@@ -248,6 +248,7 @@ def plot_comp_hexbin(
     gridsize=(50, 50),
     scatter_plot=False,
     log_scale=True,
+    color_log_scale=True,
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -267,6 +268,10 @@ def plot_comp_hexbin(
     - cmap (str, optional): Colormap for the hexbin plot. Default is "viridis".
     - scatter_plot (bool, optional): Whether to include a scatter plot of the data
         points. Default is False.
+    - log_scale (bool, optional): Whether to use a log scale for the axes. Default is
+        True.
+    - color_log_scale (bool, optional): Whether to use a log scale for the color.
+        Default is True.
 
     Returns:
     - outlier (array-like): Array of object IDs for the outliers.
@@ -292,6 +297,8 @@ def plot_comp_hexbin(
 
     fig, ax = plt.subplots(figsize=(12, 10))
 
+    bins = "log" if color_log_scale else None
+
     if log_scale:
         logxmin, logxmax = np.log10(xmin), np.log10(xmax)
 
@@ -300,7 +307,7 @@ def plot_comp_hexbin(
             np.log10(z_phot[z_cnd]),
             gridsize=gridsize,
             cmap=cmap,
-            bins="log",
+            bins=bins,
         )
 
         ax.plot([logxmin, logxmax], [logxmin, logxmax], "-", lw=1, color="k", alpha=0.75)
