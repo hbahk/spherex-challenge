@@ -256,7 +256,7 @@ def plot_comp_hexbin(
     residual_plot=False,
     residual_ylabel=r"$\Delta z / (1+z)$",
     residual_ylim=None,
-    figsize=(12, 12),
+    figsize=(12, 14),
     rfigsize=(12, 5)
 ):
     """
@@ -320,7 +320,13 @@ def plot_comp_hexbin(
     else:
         text_append = ""
 
-    fig, ax = plt.subplots(figsize=figsize)
+    if not residual_plot:
+        fig, ax = plt.subplots(figsize=figsize)
+    else:
+        fig, axes = plt.subplots(2, 1, figsize=figsize,
+                               gridspec_kw={"height_ratios": [3, 1], "hspace":0})
+        ax = axes[0]
+        rax = axes[1]
 
     bins = "log" if color_log_scale else None
 
@@ -411,9 +417,9 @@ def plot_comp_hexbin(
     cb = plt.colorbar(hb, cax=cax, label="counts")
 
     if residual_plot:
-        rfig = plt.figure(figsize=rfigsize)
-        rax = rfig.add_subplot(111)
-        # ax.set_xticklabels([])
+        # rfig = plt.figure(figsize=rfigsize)
+        # rax = rfig.add_subplot(111)
+        ax.set_xticklabels([])
         
         if z_840 is not None and z_160 is not None:
             _yerr = sigz[z_cnd]
@@ -450,7 +456,7 @@ def plot_comp_hexbin(
             rax.set_ylim(residual_ylim)
             
             
-    ax.set_aspect("equal")
+    # ax.set_aspect("equal")
     ax.tick_params(axis="both", which="minor")
     ax.tick_params(axis="both", direction="in", which="both")
 
