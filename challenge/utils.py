@@ -332,7 +332,7 @@ def plot_comp_hexbin(
         ax.set_ylim([logxmin, logxmax])
     else:
         hb = ax.hexbin(
-            z_spec[z_cnd], z_phot[z_cnd], gridsize=gridsize, cmap=cmap, bins="log",
+            z_spec[z_cnd], z_phot[z_cnd], gridsize=gridsize, cmap=cmap, bins=bins,
             extent=[xmin, xmax, xmin, xmax]
         )
 
