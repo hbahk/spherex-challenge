@@ -8,7 +8,9 @@
 from pathlib import Path
 import os
 import numpy as np
+import matplotlib as mpl 
 from matplotlib import pyplot as plt
+from matplotlib.colors import LogNorm
 from astropy.table import Table
 from eazy import filters, utils
 
@@ -254,7 +256,8 @@ def plot_comp_hexbin(
     residual_plot=False,
     residual_ylabel=r"$\Delta z / (1+z)$",
     residual_ylim=None,
-    figsize=(12, 10),
+    figsize=(12, 12),
+    rfigsize=(12, 5)
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -402,29 +405,36 @@ def plot_comp_hexbin(
     ax.set_title(title)
 
     from mpl_toolkits.axes_grid1 import make_axes_locatable
+    
     divider = make_axes_locatable(ax)
     cax = divider.append_axes("right", size="5%", pad=0.1)
     cb = plt.colorbar(hb, cax=cax, label="counts")
-    
-    ax.set_aspect("equal")
-    ax.tick_params(axis="both", which="minor")
-    ax.tick_params(axis="both", direction="in", which="both")
 
     if residual_plot:
-        rax = divider.append_axes("bottom", size="20%", pad=0)
-        ax.set_xticklabels([])
+        rfig = plt.figure(figsize=rfigsize)
+        rax = rfig.add_subplot(111)
+        # ax.set_xticklabels([])
+        
         if z_840 is not None and z_160 is not None:
-            yerr = sigz[z_cnd]
+            _yerr = sigz[z_cnd]
+            idxs = np.argsort(_yerr)[::-1]
+            yerr = _yerr[idxs]
         else:
             yerr = None
+            idxs = np.full_like(z_spec[z_cnd], True)
+            
         if log_scale:
-            xx = np.log10(z_spec[z_cnd])
+            xx = np.log10(z_spec[z_cnd][idxs])
             rax.set_xlim([logxmin, logxmax])
         else:
-            xx = z_spec[z_cnd]
+            xx = z_spec[z_cnd][idxs]
             rax.set_xlim([xmin, xmax])
             
-        rax.errorbar(xx, dz[z_cnd], yerr=yerr, fmt="o", ms=3, lw=0.8, mfc="w", mec="k", ecolor="k", alpha=0.5)
+        
+        rax.errorbar(xx, dz[z_cnd][idxs], yerr=yerr[idxs], fmt="o", ms=3, lw=0.2,
+                     c="w", mec="k", ecolor="k", zorder=1)
+        rsc = rax.scatter(xx, dz[z_cnd][idxs], c=yerr, s=10, zorder=2, lw=0.2, ec="k",
+                          cmap="inferno_r", norm=LogNorm(),)
         rax.plot([xmin, xmax], [0, 0], "-", lw=0.8, color="k", alpha=0.75)
         rax.plot([xmin, xmax], [0.15, 0.15], "--", lw=0.8, color="k", alpha=0.75)
         rax.plot([xmin, xmax], [-0.15, -0.15], "--", lw=0.8, color="k", alpha=0.75)
@@ -432,9 +442,17 @@ def plot_comp_hexbin(
         rax.set_xlabel(label_x)
         rax.set_ylabel(residual_ylabel)
         
+        rdivider = make_axes_locatable(rax)
+        rcax = rdivider.append_axes("right", size="5%", pad=0.1)
+        rcb = plt.colorbar(rsc, cax=rcax, label=r"$\hat{\sigma}_{z/(1+\hat{z})}$")
+        
         if residual_ylim:
             rax.set_ylim(residual_ylim)
             
+            
+    ax.set_aspect("equal")
+    ax.tick_params(axis="both", which="minor")
+    ax.tick_params(axis="both", direction="in", which="both")
 
     plt.tight_layout()
     plt.savefig(out, dpi=300)
