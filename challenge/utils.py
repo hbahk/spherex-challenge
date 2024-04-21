@@ -316,7 +316,7 @@ def plot_comp_hexbin(
 
         text_append = (
             "\n"
-            + r"$\tilde{\sigma}_{z/(1+z)}$" + f" = {medsigz:.1f}%\n"
+            + r"$\tilde{\sigma}_{z/(1+z)}$" + f" = {medsigz:.3f}\n"
             + r"$\eta_{3\hat{\sigma}}$" + f" = {outsigzfrac:.1f}%"
         )
     else:

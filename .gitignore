@@ -11,6 +11,7 @@ data
 *.res
 output_*
 templates
+Fig1-comp_z_eazypy.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
