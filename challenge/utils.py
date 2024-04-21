@@ -13,6 +13,7 @@ from matplotlib import pyplot as plt
 from matplotlib.colors import LogNorm
 from astropy.table import Table
 from eazy import filters, utils
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 
 def combine_photometries(filters, fluxes, errors):
@@ -251,12 +252,13 @@ def plot_comp_hexbin(
     cmap="viridis",
     gridsize=(50, 50),
     scatter_plot=False,
+    no_hexbin=False,
     log_scale=True,
     color_log_scale=True,
     residual_plot=False,
     residual_ylabel=r"$\Delta z / (1+z)$",
     residual_ylim=None,
-    figsize=(12, 14),
+    figsize=(12, 13),
     rfigsize=(12, 5)
 ):
     """
@@ -292,7 +294,7 @@ def plot_comp_hexbin(
     z_cnd = (z_phot > 0.0) & (z_spec > 0.0) & (z_phot_chi2 > 0.0)
     print(f"Objects : {np.sum(z_cnd):d}")
 
-    delta_z = z_spec - z_phot
+    delta_z = z_phot - z_spec
     dz = delta_z / (1 + z_spec)
     bias = np.mean(dz[z_cnd])
     # Normalized Median Absolute Deviation (NMAD)
@@ -327,26 +329,36 @@ def plot_comp_hexbin(
                                gridspec_kw={"height_ratios": [3, 1], "hspace":0})
         ax = axes[0]
         rax = axes[1]
+    
+    divider = make_axes_locatable(ax)
+    cax = divider.append_axes("right", size="5%", pad=0.1)
 
     bins = "log" if color_log_scale else None
 
     if log_scale:
-        logxmin, logxmax = np.log10(xmin), np.log10(xmax)
+        logxmin, logxmax = np.log10(1+xmin), np.log10(1+xmax)
+        if not no_hexbin:
+            hb = ax.hexbin(
+                np.log10(1+z_spec[z_cnd]),
+                np.log10(1+z_phot[z_cnd]),
+                gridsize=gridsize,
+                cmap=cmap,
+                bins=bins,
+                mincnt=1,
+            )
 
-        hb = ax.hexbin(
-            np.log10(z_spec[z_cnd]),
-            np.log10(z_phot[z_cnd]),
-            gridsize=gridsize,
-            cmap=cmap,
-            bins=bins,
-            mincnt=1,
-        )
-
-        ax.plot([logxmin, logxmax], [logxmin, logxmax], "-", lw=1, color="k", alpha=0.75)
         if scatter_plot:
             ax.scatter(
-                np.log10(z_spec[z_cnd]), np.log10(z_phot[z_cnd]), c="k", s=0.5, alpha=0.5
+                np.log10(1+z_spec[z_cnd]), np.log10(1+z_phot[z_cnd]), c="k", s=0.5, alpha=0.5
             )
+            if z_840 is not None and z_160 is not None:
+                yerr = sigz[z_cnd]/(1+z_phot[z_cnd])
+                ax.errorbar(np.log10(1+z_spec[z_cnd]), np.log10(1+z_phot[z_cnd]), yerr=yerr, fmt="o",
+                            ms=3, lw=0.8, c="w", mec="k", ecolor="k")
+            else:
+                ax.scatter(np.log10(1+z_spec[z_cnd]), np.log10(1+z_phot[z_cnd]), c="w", s=10, lw=0.2, ec="k")
+            
+        ax.plot([logxmin, logxmax], [logxmin, logxmax], "-", lw=1, color="k", alpha=0.75)
         xx = np.logspace(logxmin, logxmax, 1000)
         logxx = np.log10(xx)
         logyy_lower = np.log10((1.0 - 0.15) * xx - 0.15)
@@ -355,7 +367,7 @@ def plot_comp_hexbin(
         ax.plot(logxx, logyy_upper, "--", lw=1, color="k", alpha=0.7)
 
         ticks = np.array([1e-2, 1e-1, 1, 2, 3, 4, 5, 6])
-        logticks = np.log10(ticks)
+        logticks = np.log10(1+ticks)
         ax.set_xticks(logticks)
         ax.set_yticks(logticks)
         ax.set_xticklabels([f"{x:.2f}" if x < 1 else f"{int(x)}" for x in ticks])
@@ -363,14 +375,27 @@ def plot_comp_hexbin(
         ax.set_xlim([logxmin, logxmax])
         ax.set_ylim([logxmin, logxmax])
     else:
-        hb = ax.hexbin(
-            z_spec[z_cnd], z_phot[z_cnd], gridsize=gridsize, cmap=cmap, bins=bins,
-            extent=[xmin, xmax, xmin, xmax], mincnt=1
-        )
+        if not no_hexbin:
+            hb = ax.hexbin(
+                z_spec[z_cnd], z_phot[z_cnd], gridsize=gridsize, cmap=cmap, bins=bins,
+                extent=[xmin, xmax, xmin, xmax], mincnt=1
+            )
 
-        ax.plot([xmin, xmax], [xmin, xmax], "-", lw=1, color="k", alpha=0.75)
         if scatter_plot:
-            ax.scatter(z_spec[z_cnd], z_phot[z_cnd], c="k", s=0.5, alpha=0.5)
+            if z_840 is not None and z_160 is not None:
+                color = np.abs(dz[z_cnd]/sigz[z_cnd])
+                isc = np.argsort(color)[::-1]
+                xsc, ysc = z_spec[z_cnd][isc], z_phot[z_cnd][isc]
+                yesc = sigz[z_cnd][isc]
+                colorsc = color[isc]
+                ax.errorbar(xsc, ysc, yerr=yesc, fmt="o",
+                            ms=5, lw=0.8, c="w", mec="k", ecolor="gray", zorder=1)
+                csc = ax.scatter(xsc, ysc, c=colorsc, s=20, lw=0.2,
+                                 ec="k", cmap="Purples_r", vmin=0, vmax=3, zorder=2)
+            else:
+                ax.scatter(z_spec[z_cnd], z_phot[z_cnd], c="w", s=20, lw=0.2, ec="k")
+            
+        ax.plot([xmin, xmax], [xmin, xmax], "-", lw=1, color="k", alpha=0.75)
         xx = np.linspace(xmin, xmax, 1000)
         ax.plot(xx, (1.0 - 0.15) * xx - 0.15, "--", lw=1, color="k", alpha=0.7)
         ax.plot(xx, (1.0 + 0.15) * xx + 0.15, "--", lw=1, color="k", alpha=0.7)
@@ -410,11 +435,11 @@ def plot_comp_hexbin(
     )
     ax.set_title(title)
 
-    from mpl_toolkits.axes_grid1 import make_axes_locatable
-    
-    divider = make_axes_locatable(ax)
-    cax = divider.append_axes("right", size="5%", pad=0.1)
-    cb = plt.colorbar(hb, cax=cax, label="counts")
+    if not no_hexbin:
+        cb = plt.colorbar(hb, cax=cax, label="counts")
+    else:
+        if z_840 is not None and z_160 is not None:
+            cb = plt.colorbar(csc, cax=cax, label=r"$|\Delta z / (1+z)|}$ [$\hat\sigma_{z/(1+\hat{z})}$]")
 
     if residual_plot:
         # rfig = plt.figure(figsize=rfigsize)
@@ -437,13 +462,14 @@ def plot_comp_hexbin(
             rax.set_xlim([xmin, xmax])
             
         
-        rax.errorbar(xx, dz[z_cnd][idxs], yerr=yerr[idxs], fmt="o", ms=3, lw=0.2,
-                     c="w", mec="k", ecolor="k", zorder=1)
-        rsc = rax.scatter(xx, dz[z_cnd][idxs], c=yerr, s=10, zorder=2, lw=0.2, ec="k",
-                          cmap="inferno_r", norm=LogNorm(),)
         rax.plot([xmin, xmax], [0, 0], "-", lw=0.8, color="k", alpha=0.75)
         rax.plot([xmin, xmax], [0.15, 0.15], "--", lw=0.8, color="k", alpha=0.75)
         rax.plot([xmin, xmax], [-0.15, -0.15], "--", lw=0.8, color="k", alpha=0.75)
+        rsc = rax.scatter(xx, dz[z_cnd][idxs], c=yerr, s=20, zorder=2, lw=0.2, ec="k",
+                          cmap="inferno_r", norm=LogNorm(),)
+        rax.set_ylim(rax.get_ylim())
+        rax.errorbar(xx, dz[z_cnd][idxs], yerr=yerr[idxs], fmt="o", ms=3, lw=0.8,
+                     c="w", mec="k", ecolor="k", zorder=1)
         
         rax.set_xlabel(label_x)
         rax.set_ylabel(residual_ylabel)
