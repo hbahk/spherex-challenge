@@ -416,23 +416,23 @@
   416 synthetic_i lambda_c= 7500. from-Antwi-Danso-2022-arXiv-2207.07170
   417 jwst_nirspec_f110w_trans.fits lambda_c= 1.15576e+04 JDox-Jan-2023
   418 jwst_nirspec_f140x_trans.fits lambda_c= 1.38014e+04 JDox-Jan-2023
-  419 7DT_4250_fitted lambda_c= 4.2552e+02 AB-Vega= 27.510 w95=23.4
-  420 7DT_4500_fitted lambda_c= 4.5079e+02 AB-Vega= 27.755 w95=24.7
-  421 7DT_4000_fitted lambda_c= 4.0136e+02 AB-Vega= 28.092 w95=23.7
-  422 7DT_4750_fitted lambda_c= 4.7528e+02 AB-Vega= 27.823 w95=23.1
-  423 7DT_5250_fitted lambda_c= 5.2485e+02 AB-Vega= 27.701 w95=24.1
-  424 7DT_5000_fitted lambda_c= 5.0027e+02 AB-Vega= 26.668 w95=26.0
-  425 7DT_5750_fitted lambda_c= 5.7488e+02 AB-Vega= 27.763 w95=24.0
-  426 7DT_6000_fitted lambda_c= 6.0010e+02 AB-Vega= 27.722 w95=25.5
-  427 7DT_5500_fitted lambda_c= 5.5009e+02 AB-Vega= 28.311 w95=25.1
-  428 7DT_6250_fitted lambda_c= 6.2478e+02 AB-Vega= 26.429 w95=23.7
-  429 7DT_6500_fitted lambda_c= 6.5008e+02 AB-Vega= 27.423 w95=25.3
-  430 7DT_6750_fitted lambda_c= 6.7447e+02 AB-Vega= 26.697 w95=25.3
-  431 7DT_7000_fitted lambda_c= 6.9991e+02 AB-Vega= 28.170 w95=24.2
-  432 7DT_7250_fitted lambda_c= 7.2464e+02 AB-Vega= 29.104 w95=24.8
-  433 7DT_7500_fitted lambda_c= 7.4887e+02 AB-Vega= 27.430 w95=24.5
-  434 7DT_7750_fitted lambda_c= 7.7526e+02 AB-Vega= 27.226 w95=24.1
-  435 7DT_8000_fitted lambda_c= 7.9921e+02 AB-Vega= 26.082 w95=25.0
-  436 7DT_8250_fitted lambda_c= 8.2396e+02 AB-Vega= 25.860 w95=27.8
-  437 7DT_8500_fitted lambda_c= 8.4829e+02 AB-Vega= 22.412 w95=28.7
-  438 7DT_8750_fitted lambda_c= 8.7284e+02 AB-Vega= 25.868 w95=27.3
+  419 7DT_4250_fitted lambda_c= 4.2552e+03 AB-Vega= -0.146 w95=234.2
+  420 7DT_4500_fitted lambda_c= 4.5079e+03 AB-Vega= -0.178 w95=247.0
+  421 7DT_4000_fitted lambda_c= 4.0136e+03 AB-Vega= -0.048 w95=237.4
+  422 7DT_4750_fitted lambda_c= 4.7528e+03 AB-Vega= -0.076 w95=231.1
+  423 7DT_5250_fitted lambda_c= 5.2485e+03 AB-Vega= -0.029 w95=241.3
+  424 7DT_5000_fitted lambda_c= 5.0027e+03 AB-Vega= -0.056 w95=260.3
+  425 7DT_5750_fitted lambda_c= 5.7488e+03 AB-Vega= 0.061 w95=240.3
+  426 7DT_6000_fitted lambda_c= 6.0010e+03 AB-Vega= 0.109 w95=255.1
+  427 7DT_5500_fitted lambda_c= 5.5009e+03 AB-Vega= 0.016 w95=250.6
+  428 7DT_6250_fitted lambda_c= 6.2478e+03 AB-Vega= 0.155 w95=237.0
+  429 7DT_6500_fitted lambda_c= 6.5008e+03 AB-Vega= 0.255 w95=253.3
+  430 7DT_6750_fitted lambda_c= 6.7447e+03 AB-Vega= 0.243 w95=252.8
+  431 7DT_7000_fitted lambda_c= 6.9991e+03 AB-Vega= 0.284 w95=241.5
+  432 7DT_7250_fitted lambda_c= 7.2464e+03 AB-Vega= 0.326 w95=248.4
+  433 7DT_7500_fitted lambda_c= 7.4887e+03 AB-Vega= 0.366 w95=245.2
+  434 7DT_7750_fitted lambda_c= 7.7526e+03 AB-Vega= 0.409 w95=241.3
+  435 7DT_8000_fitted lambda_c= 7.9921e+03 AB-Vega= 0.446 w95=250.0
+  436 7DT_8250_fitted lambda_c= 8.2396e+03 AB-Vega= 0.482 w95=277.7
+  437 7DT_8500_fitted lambda_c= 8.4829e+03 AB-Vega= 0.529 w95=286.8
+  438 7DT_8750_fitted lambda_c= 8.7284e+03 AB-Vega= 0.527 w95=273.2
