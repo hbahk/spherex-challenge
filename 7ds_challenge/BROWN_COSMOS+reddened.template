@@ -1,0 +1,640 @@
+  1 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4826_spec.dat
+  2 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4385_spec.dat
+  3 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5104_spec.dat
+  4 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_09618_S_spec.dat
+  5 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0337_spec.dat
+  6 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4138_spec.dat
+  7 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGCA_219_spec.dat
+  8 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_1275_spec.dat
+  9 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3627_spec.dat
+ 10 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4194_spec.dat
+ 11 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_05101_spec.dat
+ 12 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5033_spec.dat
+ 13 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IC_5298_spec.dat
+ 14 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IC_4051_spec.dat
+ 15 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IC_0691_spec.dat
+ 16 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_06850_spec.dat
+ 17 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Arp_118_spec.dat
+ 18 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4458_spec.dat
+ 19 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5866_spec.dat
+ 20 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_2537_spec.dat
+ 21 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4551_spec.dat
+ 22 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4550_spec.dat
+ 23 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/CGCG_453-062_spec.dat
+ 24 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3379_spec.dat
+ 25 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Mrk_1490_spec.dat
+ 26 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Arp_256_S_spec.dat
+ 27 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IC_0883_spec.dat
+ 28 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_1144_spec.dat
+ 29 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3190_spec.dat
+ 30 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3351_spec.dat
+ 31 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7591_spec.dat
+ 32 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_12150_spec.dat
+ 33 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4579_spec.dat
+ 34 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4125_spec.dat
+ 35 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4660_spec.dat
+ 36 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3049_spec.dat
+ 37 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_08696_spec.dat
+ 38 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_2388_spec.dat
+ 39 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UM_461_spec.dat
+ 40 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/III_Zw_035_spec.dat
+ 41 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5055_spec.dat
+ 42 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Mrk_1450_spec.dat
+ 43 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4625_spec.dat
+ 44 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGCA_166_spec.dat
+ 45 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IRAS_17208-0014_spec.dat
+ 46 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGCA_208_spec.dat
+ 47 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4536_spec.dat
+ 48 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3690_spec.dat
+ 49 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0855_spec.dat
+ 50 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0584_spec.dat
+ 51 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_08335_NW_spec.dat
+ 52 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_6052_spec.dat
+ 53 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7714_spec.dat
+ 54 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4676_A_spec.dat
+ 55 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_2623_spec.dat
+ 56 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0474_spec.dat
+ 57 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4569_spec.dat
+ 58 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IC_0860_spec.dat
+ 59 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_1068_spec.dat
+ 60 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3870_spec.dat
+ 61 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGCA_410_spec.dat
+ 62 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5258_spec.dat
+ 63 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/CGCG_436-030_spec.dat
+ 64 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4670_spec.dat
+ 65 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7592_spec.dat
+ 66 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3521_spec.dat
+ 67 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4473_spec.dat
+ 68 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3265_spec.dat
+ 69 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3198_spec.dat
+ 70 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_09618_N_spec.dat
+ 71 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3310_spec.dat
+ 72 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7331_spec.dat
+ 73 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IC_4553_spec.dat
+ 74 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Arp_256_N_spec.dat
+ 75 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4088_spec.dat
+ 76 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4621_spec.dat
+ 77 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3773_spec.dat
+ 78 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4594_spec.dat
+ 79 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_2403_spec.dat
+ 80 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5953_spec.dat
+ 81 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4926_spec.dat
+ 82 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Mrk_0331_spec.dat
+ 83 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7679_spec.dat
+ 84 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7585_spec.dat
+ 85 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7771_spec.dat
+ 86 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Mrk_0475_spec.dat
+ 87 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4552_spec.dat
+ 88 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4321_spec.dat
+ 89 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4387_spec.dat
+ 90 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_1614_spec.dat
+ 91 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0628_spec.dat
+ 92 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7673_spec.dat
+ 93 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4254_spec.dat
+ 94 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_09618_spec.dat
+ 95 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5194_spec.dat
+ 96 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/II_Zw_096_spec.dat
+ 97 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5195_spec.dat
+ 98 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0660_spec.dat
+ 99 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4889_spec.dat
+100 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Mrk_33_spec.dat
+101 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4559_spec.dat
+102 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_6090_spec.dat
+103 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4450_spec.dat
+104 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5256_spec.dat
+105 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5257_spec.dat
+106 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4860_spec.dat
+107 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_04881_spec.dat
+108 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/IRAS_08572+3915_spec.dat
+109 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4486_spec.dat
+110 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/CGCG_049-057_spec.dat
+111 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Mrk_0930_spec.dat
+112 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_7674_spec.dat
+113 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Haro_06_spec.dat
+114 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3938_spec.dat
+115 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4631_spec.dat
+116 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4365_spec.dat
+117 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0750_spec.dat
+118 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4168_spec.dat
+119 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_08335_SE_spec.dat
+120 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_6240_spec.dat
+121 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_2798_spec.dat
+122 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_4725_spec.dat
+123 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_3079_spec.dat
+124 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/UGC_06665_spec.dat
+125 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5992_spec.dat
+126 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0520_spec.dat
+127 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5713_spec.dat
+128 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_5653_spec.dat
+129 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/NGC_0695_spec.dat
+130 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell4_A_0.sed
+131 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB7_A_0.sed
+132 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sd_A_0.sed
+133 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sd_A_1.sed
+134 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB6_A_0.sed
+135 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sdm_A_0.sed
+136 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell5_A_0.sed
+137 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sd_A_2.sed
+138 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB4_A_0.sed
+139 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell7_A_0.sed
+140 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell6_A_0.sed
+141 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB5_A_0.sed
+142 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB0_A_0.sed
+143 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sb_A_1.sed
+144 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sb_A_0.sed
+145 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB10_A_0.sed
+146 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB9_A_0.sed
+147 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell3_A_0.sed
+148 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB11_A_0.sed
+149 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB8_A_0.sed
+150 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sc_A_2.sed
+151 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell2_A_0.sed
+152 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB1_A_0.sed
+153 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sc_A_1.sed
+154 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sc_A_0.sed
+155 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sa_A_1.sed
+156 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB3_A_0.sed
+157 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Sa_A_0.sed
+158 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/S0_A_0.sed
+159 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/SB2_A_0.sed
+160 /data1/hbahk/spherex-photoz/spherex-challenge/BROWN_COSMOS/Ell1_A_0.sed
+161 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4826_spec_Av0.25.txt
+162 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4826_spec_Av0.5.txt
+163 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4826_spec_Av1.0.txt
+164 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4385_spec_Av0.25.txt
+165 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4385_spec_Av0.5.txt
+166 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4385_spec_Av1.0.txt
+167 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5104_spec_Av0.25.txt
+168 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5104_spec_Av0.5.txt
+169 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5104_spec_Av1.0.txt
+170 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_S_spec_Av0.25.txt
+171 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_S_spec_Av0.5.txt
+172 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_S_spec_Av1.0.txt
+173 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0337_spec_Av0.25.txt
+174 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0337_spec_Av0.5.txt
+175 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0337_spec_Av1.0.txt
+176 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4138_spec_Av0.25.txt
+177 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4138_spec_Av0.5.txt
+178 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4138_spec_Av1.0.txt
+179 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_219_spec_Av0.25.txt
+180 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_219_spec_Av0.5.txt
+181 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_219_spec_Av1.0.txt
+182 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1275_spec_Av0.25.txt
+183 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1275_spec_Av0.5.txt
+184 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1275_spec_Av1.0.txt
+185 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3627_spec_Av0.25.txt
+186 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3627_spec_Av0.5.txt
+187 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3627_spec_Av1.0.txt
+188 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4194_spec_Av0.25.txt
+189 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4194_spec_Av0.5.txt
+190 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4194_spec_Av1.0.txt
+191 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_05101_spec_Av0.25.txt
+192 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_05101_spec_Av0.5.txt
+193 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_05101_spec_Av1.0.txt
+194 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5033_spec_Av0.25.txt
+195 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5033_spec_Av0.5.txt
+196 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5033_spec_Av1.0.txt
+197 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_5298_spec_Av0.25.txt
+198 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_5298_spec_Av0.5.txt
+199 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_5298_spec_Av1.0.txt
+200 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_4051_spec_Av0.25.txt
+201 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_4051_spec_Av0.5.txt
+202 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_4051_spec_Av1.0.txt
+203 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0691_spec_Av0.25.txt
+204 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0691_spec_Av0.5.txt
+205 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0691_spec_Av1.0.txt
+206 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_06850_spec_Av0.25.txt
+207 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_06850_spec_Av0.5.txt
+208 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_06850_spec_Av1.0.txt
+209 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_118_spec_Av0.25.txt
+210 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_118_spec_Av0.5.txt
+211 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_118_spec_Av1.0.txt
+212 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4458_spec_Av0.25.txt
+213 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4458_spec_Av0.5.txt
+214 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4458_spec_Av1.0.txt
+215 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5866_spec_Av0.25.txt
+216 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5866_spec_Av0.5.txt
+217 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5866_spec_Av1.0.txt
+218 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2537_spec_Av0.25.txt
+219 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2537_spec_Av0.5.txt
+220 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2537_spec_Av1.0.txt
+221 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4551_spec_Av0.25.txt
+222 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4551_spec_Av0.5.txt
+223 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4551_spec_Av1.0.txt
+224 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4550_spec_Av0.25.txt
+225 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4550_spec_Av0.5.txt
+226 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4550_spec_Av1.0.txt
+227 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_453-062_spec_Av0.25.txt
+228 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_453-062_spec_Av0.5.txt
+229 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_453-062_spec_Av1.0.txt
+230 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3379_spec_Av0.25.txt
+231 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3379_spec_Av0.5.txt
+232 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3379_spec_Av1.0.txt
+233 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_1490_spec_Av0.25.txt
+234 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_1490_spec_Av0.5.txt
+235 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_1490_spec_Av1.0.txt
+236 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_256_S_spec_Av0.25.txt
+237 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_256_S_spec_Av0.5.txt
+238 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_256_S_spec_Av1.0.txt
+239 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0883_spec_Av0.25.txt
+240 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0883_spec_Av0.5.txt
+241 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0883_spec_Av1.0.txt
+242 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1144_spec_Av0.25.txt
+243 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1144_spec_Av0.5.txt
+244 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1144_spec_Av1.0.txt
+245 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3190_spec_Av0.25.txt
+246 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3190_spec_Av0.5.txt
+247 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3190_spec_Av1.0.txt
+248 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3351_spec_Av0.25.txt
+249 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3351_spec_Av0.5.txt
+250 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3351_spec_Av1.0.txt
+251 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7591_spec_Av0.25.txt
+252 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7591_spec_Av0.5.txt
+253 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7591_spec_Av1.0.txt
+254 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_12150_spec_Av0.25.txt
+255 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_12150_spec_Av0.5.txt
+256 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_12150_spec_Av1.0.txt
+257 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4579_spec_Av0.25.txt
+258 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4579_spec_Av0.5.txt
+259 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4579_spec_Av1.0.txt
+260 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4125_spec_Av0.25.txt
+261 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4125_spec_Av0.5.txt
+262 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4125_spec_Av1.0.txt
+263 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4660_spec_Av0.25.txt
+264 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4660_spec_Av0.5.txt
+265 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4660_spec_Av1.0.txt
+266 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3049_spec_Av0.25.txt
+267 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3049_spec_Av0.5.txt
+268 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3049_spec_Av1.0.txt
+269 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08696_spec_Av0.25.txt
+270 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08696_spec_Av0.5.txt
+271 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08696_spec_Av1.0.txt
+272 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2388_spec_Av0.25.txt
+273 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2388_spec_Av0.5.txt
+274 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2388_spec_Av1.0.txt
+275 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UM_461_spec_Av0.25.txt
+276 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UM_461_spec_Av0.5.txt
+277 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UM_461_spec_Av1.0.txt
+278 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/III_Zw_035_spec_Av0.25.txt
+279 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/III_Zw_035_spec_Av0.5.txt
+280 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/III_Zw_035_spec_Av1.0.txt
+281 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5055_spec_Av0.25.txt
+282 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5055_spec_Av0.5.txt
+283 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5055_spec_Av1.0.txt
+284 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_1450_spec_Av0.25.txt
+285 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_1450_spec_Av0.5.txt
+286 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_1450_spec_Av1.0.txt
+287 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4625_spec_Av0.25.txt
+288 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4625_spec_Av0.5.txt
+289 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4625_spec_Av1.0.txt
+290 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_166_spec_Av0.25.txt
+291 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_166_spec_Av0.5.txt
+292 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_166_spec_Av1.0.txt
+293 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IRAS_17208-0014_spec_Av0.25.txt
+294 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IRAS_17208-0014_spec_Av0.5.txt
+295 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IRAS_17208-0014_spec_Av1.0.txt
+296 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_208_spec_Av0.25.txt
+297 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_208_spec_Av0.5.txt
+298 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_208_spec_Av1.0.txt
+299 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4536_spec_Av0.25.txt
+300 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4536_spec_Av0.5.txt
+301 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4536_spec_Av1.0.txt
+302 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3690_spec_Av0.25.txt
+303 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3690_spec_Av0.5.txt
+304 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3690_spec_Av1.0.txt
+305 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0855_spec_Av0.25.txt
+306 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0855_spec_Av0.5.txt
+307 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0855_spec_Av1.0.txt
+308 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0584_spec_Av0.25.txt
+309 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0584_spec_Av0.5.txt
+310 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0584_spec_Av1.0.txt
+311 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08335_NW_spec_Av0.25.txt
+312 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08335_NW_spec_Av0.5.txt
+313 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08335_NW_spec_Av1.0.txt
+314 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6052_spec_Av0.25.txt
+315 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6052_spec_Av0.5.txt
+316 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6052_spec_Av1.0.txt
+317 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7714_spec_Av0.25.txt
+318 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7714_spec_Av0.5.txt
+319 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7714_spec_Av1.0.txt
+320 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4676_A_spec_Av0.25.txt
+321 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4676_A_spec_Av0.5.txt
+322 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4676_A_spec_Av1.0.txt
+323 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2623_spec_Av0.25.txt
+324 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2623_spec_Av0.5.txt
+325 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2623_spec_Av1.0.txt
+326 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0474_spec_Av0.25.txt
+327 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0474_spec_Av0.5.txt
+328 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0474_spec_Av1.0.txt
+329 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4569_spec_Av0.25.txt
+330 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4569_spec_Av0.5.txt
+331 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4569_spec_Av1.0.txt
+332 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0860_spec_Av0.25.txt
+333 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0860_spec_Av0.5.txt
+334 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_0860_spec_Av1.0.txt
+335 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1068_spec_Av0.25.txt
+336 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1068_spec_Av0.5.txt
+337 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1068_spec_Av1.0.txt
+338 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3870_spec_Av0.25.txt
+339 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3870_spec_Av0.5.txt
+340 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3870_spec_Av1.0.txt
+341 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_410_spec_Av0.25.txt
+342 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_410_spec_Av0.5.txt
+343 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGCA_410_spec_Av1.0.txt
+344 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5258_spec_Av0.25.txt
+345 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5258_spec_Av0.5.txt
+346 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5258_spec_Av1.0.txt
+347 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_436-030_spec_Av0.25.txt
+348 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_436-030_spec_Av0.5.txt
+349 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_436-030_spec_Av1.0.txt
+350 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4670_spec_Av0.25.txt
+351 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4670_spec_Av0.5.txt
+352 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4670_spec_Av1.0.txt
+353 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7592_spec_Av0.25.txt
+354 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7592_spec_Av0.5.txt
+355 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7592_spec_Av1.0.txt
+356 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3521_spec_Av0.25.txt
+357 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3521_spec_Av0.5.txt
+358 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3521_spec_Av1.0.txt
+359 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4473_spec_Av0.25.txt
+360 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4473_spec_Av0.5.txt
+361 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4473_spec_Av1.0.txt
+362 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3265_spec_Av0.25.txt
+363 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3265_spec_Av0.5.txt
+364 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3265_spec_Av1.0.txt
+365 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3198_spec_Av0.25.txt
+366 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3198_spec_Av0.5.txt
+367 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3198_spec_Av1.0.txt
+368 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_N_spec_Av0.25.txt
+369 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_N_spec_Av0.5.txt
+370 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_N_spec_Av1.0.txt
+371 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3310_spec_Av0.25.txt
+372 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3310_spec_Av0.5.txt
+373 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3310_spec_Av1.0.txt
+374 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7331_spec_Av0.25.txt
+375 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7331_spec_Av0.5.txt
+376 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7331_spec_Av1.0.txt
+377 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_4553_spec_Av0.25.txt
+378 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_4553_spec_Av0.5.txt
+379 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IC_4553_spec_Av1.0.txt
+380 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_256_N_spec_Av0.25.txt
+381 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_256_N_spec_Av0.5.txt
+382 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Arp_256_N_spec_Av1.0.txt
+383 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4088_spec_Av0.25.txt
+384 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4088_spec_Av0.5.txt
+385 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4088_spec_Av1.0.txt
+386 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4621_spec_Av0.25.txt
+387 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4621_spec_Av0.5.txt
+388 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4621_spec_Av1.0.txt
+389 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3773_spec_Av0.25.txt
+390 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3773_spec_Av0.5.txt
+391 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3773_spec_Av1.0.txt
+392 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4594_spec_Av0.25.txt
+393 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4594_spec_Av0.5.txt
+394 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4594_spec_Av1.0.txt
+395 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2403_spec_Av0.25.txt
+396 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2403_spec_Av0.5.txt
+397 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2403_spec_Av1.0.txt
+398 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5953_spec_Av0.25.txt
+399 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5953_spec_Av0.5.txt
+400 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5953_spec_Av1.0.txt
+401 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4926_spec_Av0.25.txt
+402 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4926_spec_Av0.5.txt
+403 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4926_spec_Av1.0.txt
+404 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0331_spec_Av0.25.txt
+405 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0331_spec_Av0.5.txt
+406 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0331_spec_Av1.0.txt
+407 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7679_spec_Av0.25.txt
+408 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7679_spec_Av0.5.txt
+409 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7679_spec_Av1.0.txt
+410 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7585_spec_Av0.25.txt
+411 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7585_spec_Av0.5.txt
+412 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7585_spec_Av1.0.txt
+413 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7771_spec_Av0.25.txt
+414 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7771_spec_Av0.5.txt
+415 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7771_spec_Av1.0.txt
+416 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0475_spec_Av0.25.txt
+417 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0475_spec_Av0.5.txt
+418 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0475_spec_Av1.0.txt
+419 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4552_spec_Av0.25.txt
+420 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4552_spec_Av0.5.txt
+421 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4552_spec_Av1.0.txt
+422 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4321_spec_Av0.25.txt
+423 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4321_spec_Av0.5.txt
+424 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4321_spec_Av1.0.txt
+425 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4387_spec_Av0.25.txt
+426 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4387_spec_Av0.5.txt
+427 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4387_spec_Av1.0.txt
+428 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1614_spec_Av0.25.txt
+429 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1614_spec_Av0.5.txt
+430 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_1614_spec_Av1.0.txt
+431 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0628_spec_Av0.25.txt
+432 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0628_spec_Av0.5.txt
+433 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0628_spec_Av1.0.txt
+434 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7673_spec_Av0.25.txt
+435 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7673_spec_Av0.5.txt
+436 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7673_spec_Av1.0.txt
+437 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4254_spec_Av0.25.txt
+438 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4254_spec_Av0.5.txt
+439 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4254_spec_Av1.0.txt
+440 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_spec_Av0.25.txt
+441 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_spec_Av0.5.txt
+442 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_09618_spec_Av1.0.txt
+443 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5194_spec_Av0.25.txt
+444 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5194_spec_Av0.5.txt
+445 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5194_spec_Av1.0.txt
+446 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/II_Zw_096_spec_Av0.25.txt
+447 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/II_Zw_096_spec_Av0.5.txt
+448 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/II_Zw_096_spec_Av1.0.txt
+449 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5195_spec_Av0.25.txt
+450 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5195_spec_Av0.5.txt
+451 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5195_spec_Av1.0.txt
+452 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0660_spec_Av0.25.txt
+453 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0660_spec_Av0.5.txt
+454 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0660_spec_Av1.0.txt
+455 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4889_spec_Av0.25.txt
+456 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4889_spec_Av0.5.txt
+457 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4889_spec_Av1.0.txt
+458 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_33_spec_Av0.25.txt
+459 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_33_spec_Av0.5.txt
+460 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_33_spec_Av1.0.txt
+461 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell4_A_0_Av0.25.txt
+462 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4559_spec_Av0.25.txt
+463 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4559_spec_Av0.5.txt
+464 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4559_spec_Av1.0.txt
+465 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6090_spec_Av0.25.txt
+466 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6090_spec_Av0.5.txt
+467 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6090_spec_Av1.0.txt
+468 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4450_spec_Av0.25.txt
+469 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4450_spec_Av0.5.txt
+470 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4450_spec_Av1.0.txt
+471 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5256_spec_Av0.25.txt
+472 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5256_spec_Av0.5.txt
+473 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5256_spec_Av1.0.txt
+474 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5257_spec_Av0.25.txt
+475 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5257_spec_Av0.5.txt
+476 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5257_spec_Av1.0.txt
+477 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4860_spec_Av0.25.txt
+478 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4860_spec_Av0.5.txt
+479 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4860_spec_Av1.0.txt
+480 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_04881_spec_Av0.25.txt
+481 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_04881_spec_Av0.5.txt
+482 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_04881_spec_Av1.0.txt
+483 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IRAS_08572+3915_spec_Av0.25.txt
+484 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IRAS_08572+3915_spec_Av0.5.txt
+485 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/IRAS_08572+3915_spec_Av1.0.txt
+486 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4486_spec_Av0.25.txt
+487 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4486_spec_Av0.5.txt
+488 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4486_spec_Av1.0.txt
+489 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_049-057_spec_Av0.25.txt
+490 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_049-057_spec_Av0.5.txt
+491 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/CGCG_049-057_spec_Av1.0.txt
+492 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0930_spec_Av0.25.txt
+493 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0930_spec_Av0.5.txt
+494 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Mrk_0930_spec_Av1.0.txt
+495 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7674_spec_Av0.25.txt
+496 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7674_spec_Av0.5.txt
+497 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_7674_spec_Av1.0.txt
+498 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Haro_06_spec_Av0.25.txt
+499 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Haro_06_spec_Av0.5.txt
+500 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Haro_06_spec_Av1.0.txt
+501 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3938_spec_Av0.25.txt
+502 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3938_spec_Av0.5.txt
+503 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3938_spec_Av1.0.txt
+504 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4631_spec_Av0.25.txt
+505 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4631_spec_Av0.5.txt
+506 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4631_spec_Av1.0.txt
+507 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4365_spec_Av0.25.txt
+508 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4365_spec_Av0.5.txt
+509 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4365_spec_Av1.0.txt
+510 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0750_spec_Av0.25.txt
+511 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0750_spec_Av0.5.txt
+512 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0750_spec_Av1.0.txt
+513 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4168_spec_Av0.25.txt
+514 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4168_spec_Av0.5.txt
+515 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4168_spec_Av1.0.txt
+516 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08335_SE_spec_Av0.25.txt
+517 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08335_SE_spec_Av0.5.txt
+518 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_08335_SE_spec_Av1.0.txt
+519 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6240_spec_Av0.25.txt
+520 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6240_spec_Av0.5.txt
+521 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_6240_spec_Av1.0.txt
+522 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2798_spec_Av0.25.txt
+523 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2798_spec_Av0.5.txt
+524 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_2798_spec_Av1.0.txt
+525 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4725_spec_Av0.25.txt
+526 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4725_spec_Av0.5.txt
+527 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_4725_spec_Av1.0.txt
+528 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3079_spec_Av0.25.txt
+529 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3079_spec_Av0.5.txt
+530 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_3079_spec_Av1.0.txt
+531 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_06665_spec_Av0.25.txt
+532 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_06665_spec_Av0.5.txt
+533 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/UGC_06665_spec_Av1.0.txt
+534 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5992_spec_Av0.25.txt
+535 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5992_spec_Av0.5.txt
+536 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5992_spec_Av1.0.txt
+537 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0520_spec_Av0.25.txt
+538 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0520_spec_Av0.5.txt
+539 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0520_spec_Av1.0.txt
+540 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5713_spec_Av0.25.txt
+541 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5713_spec_Av0.5.txt
+542 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5713_spec_Av1.0.txt
+543 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5653_spec_Av0.25.txt
+544 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5653_spec_Av0.5.txt
+545 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_5653_spec_Av1.0.txt
+546 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0695_spec_Av0.25.txt
+547 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0695_spec_Av0.5.txt
+548 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/NGC_0695_spec_Av1.0.txt
+549 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell4_A_0_Av0.5.txt
+550 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell4_A_0_Av1.0.txt
+551 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB7_A_0_Av0.25.txt
+552 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB7_A_0_Av0.5.txt
+553 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB7_A_0_Av1.0.txt
+554 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_0_Av0.25.txt
+555 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_0_Av0.5.txt
+556 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_0_Av1.0.txt
+557 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_1_Av0.25.txt
+558 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_1_Av0.5.txt
+559 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_1_Av1.0.txt
+560 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB6_A_0_Av0.25.txt
+561 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB6_A_0_Av0.5.txt
+562 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB6_A_0_Av1.0.txt
+563 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sdm_A_0_Av0.25.txt
+564 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sdm_A_0_Av0.5.txt
+565 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sdm_A_0_Av1.0.txt
+566 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell5_A_0_Av0.25.txt
+567 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell5_A_0_Av0.5.txt
+568 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell5_A_0_Av1.0.txt
+569 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_2_Av0.25.txt
+570 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_2_Av0.5.txt
+571 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sd_A_2_Av1.0.txt
+572 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB4_A_0_Av0.25.txt
+573 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB4_A_0_Av0.5.txt
+574 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB4_A_0_Av1.0.txt
+575 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell7_A_0_Av0.25.txt
+576 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell7_A_0_Av0.5.txt
+577 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell7_A_0_Av1.0.txt
+578 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell6_A_0_Av0.25.txt
+579 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell6_A_0_Av0.5.txt
+580 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell6_A_0_Av1.0.txt
+581 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB5_A_0_Av0.25.txt
+582 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB5_A_0_Av0.5.txt
+583 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB5_A_0_Av1.0.txt
+584 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB0_A_0_Av0.25.txt
+585 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB0_A_0_Av0.5.txt
+586 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB0_A_0_Av1.0.txt
+587 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sb_A_1_Av0.25.txt
+588 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sb_A_1_Av0.5.txt
+589 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sb_A_1_Av1.0.txt
+590 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sb_A_0_Av0.25.txt
+591 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sb_A_0_Av0.5.txt
+592 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sb_A_0_Av1.0.txt
+593 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB10_A_0_Av0.25.txt
+594 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB10_A_0_Av0.5.txt
+595 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB10_A_0_Av1.0.txt
+596 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB9_A_0_Av0.25.txt
+597 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB9_A_0_Av0.5.txt
+598 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB9_A_0_Av1.0.txt
+599 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell3_A_0_Av0.25.txt
+600 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell3_A_0_Av0.5.txt
+601 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell3_A_0_Av1.0.txt
+602 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB11_A_0_Av0.25.txt
+603 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB11_A_0_Av0.5.txt
+604 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB11_A_0_Av1.0.txt
+605 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB8_A_0_Av0.25.txt
+606 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB8_A_0_Av0.5.txt
+607 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB8_A_0_Av1.0.txt
+608 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_2_Av0.25.txt
+609 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_2_Av0.5.txt
+610 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_2_Av1.0.txt
+611 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell2_A_0_Av0.25.txt
+612 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell2_A_0_Av0.5.txt
+613 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell2_A_0_Av1.0.txt
+614 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB1_A_0_Av0.25.txt
+615 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB1_A_0_Av0.5.txt
+616 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB1_A_0_Av1.0.txt
+617 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_1_Av0.25.txt
+618 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_1_Av0.5.txt
+619 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_1_Av1.0.txt
+620 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_0_Av0.25.txt
+621 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_0_Av0.5.txt
+622 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sc_A_0_Av1.0.txt
+623 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sa_A_1_Av0.25.txt
+624 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sa_A_1_Av0.5.txt
+625 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sa_A_1_Av1.0.txt
+626 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB3_A_0_Av0.25.txt
+627 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB3_A_0_Av0.5.txt
+628 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB3_A_0_Av1.0.txt
+629 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sa_A_0_Av0.25.txt
+630 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sa_A_0_Av0.5.txt
+631 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Sa_A_0_Av1.0.txt
+632 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/S0_A_0_Av0.25.txt
+633 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/S0_A_0_Av0.5.txt
+634 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/S0_A_0_Av1.0.txt
+635 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB2_A_0_Av0.25.txt
+636 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB2_A_0_Av0.5.txt
+637 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/SB2_A_0_Av1.0.txt
+638 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell1_A_0_Av0.25.txt
+639 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell1_A_0_Av0.5.txt
+640 /data1/hbahk/spherex-photoz/spherex-challenge/7ds_challenge/BROWN_COSMOS_REDDENED/Ell1_A_0_Av1.0.txt
