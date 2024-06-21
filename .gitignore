@@ -14,7 +14,7 @@ output_*
 templates
 Fig1-comp_z_eazypy.png
 7DT_filters_v2
-
+*.fits
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
