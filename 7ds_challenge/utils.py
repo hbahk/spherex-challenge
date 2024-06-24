@@ -27,7 +27,8 @@ def plot_comp_hexbin(
     residual_ylabel=r"$\Delta z / (1+z)$",
     residual_ylim=None,
     figsize=(12, 13),
-    rfigsize=(12, 5)
+    rfigsize=(12, 5),
+    figclose=True,
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -256,7 +257,8 @@ def plot_comp_hexbin(
 
     plt.tight_layout()
     plt.savefig(out, dpi=300)
-    #     plt.close()
+    if figclose:
+        plt.close()
 
     return ids[outlier]
 
