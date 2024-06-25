@@ -17,6 +17,7 @@ Fig1-comp_z_eazypy.png
 *.fits
 input
 figures
+prior_R_zmax7*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
