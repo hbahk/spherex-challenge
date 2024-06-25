@@ -415,6 +415,7 @@ def get_result_figures(base, figdir, scheme):
 
     ax.set_title('Phot-z from EAZY'+f"({scheme})")
     fig.savefig(figdir/'sigz.png', dpi=300)
+    plt.close()
 
     sigzmask = (s < 0.1)
 
@@ -440,6 +441,7 @@ def get_result_figures(base, figdir, scheme):
     cbar.set_label(r'$\hat{\sigma}_{z/(1+\hat{z})}$')
 
     fig.savefig(figdir/'sigz_lt01.png', dpi=300)
+    plt.close()
 
 
     sigzmask = (s < 0.01)
@@ -466,6 +468,7 @@ def get_result_figures(base, figdir, scheme):
     cbar.set_label(r'$\hat{\sigma}_{z/(1+\hat{z})}$')
 
     fig.savefig(figdir/'sigz_lt001.png', dpi=300)
+    plt.close()
 
 
     sigzmask = (s < 0.1)
