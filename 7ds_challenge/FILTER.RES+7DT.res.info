@@ -416,15 +416,15 @@
   416 synthetic_i lambda_c= 7500. from-Antwi-Danso-2022-arXiv-2207.07170
   417 jwst_nirspec_f110w_trans.fits lambda_c= 1.15576e+04 JDox-Jan-2023
   418 jwst_nirspec_f140x_trans.fits lambda_c= 1.38014e+04 JDox-Jan-2023
-  419 7DT_4250_fitted lambda_c= 4.2552e+03 AB-Vega= -0.146 w95=234.2
-  420 7DT_4500_fitted lambda_c= 4.5079e+03 AB-Vega= -0.178 w95=247.0
-  421 7DT_4000_fitted lambda_c= 4.0136e+03 AB-Vega= -0.048 w95=237.4
+  419 7DT_4000_fitted lambda_c= 4.0136e+03 AB-Vega= -0.048 w95=237.4
+  420 7DT_4250_fitted lambda_c= 4.2552e+03 AB-Vega= -0.146 w95=234.2
+  421 7DT_4500_fitted lambda_c= 4.5079e+03 AB-Vega= -0.178 w95=247.0
   422 7DT_4750_fitted lambda_c= 4.7528e+03 AB-Vega= -0.076 w95=231.1
-  423 7DT_5250_fitted lambda_c= 5.2485e+03 AB-Vega= -0.029 w95=241.3
-  424 7DT_5000_fitted lambda_c= 5.0027e+03 AB-Vega= -0.056 w95=260.3
-  425 7DT_5750_fitted lambda_c= 5.7488e+03 AB-Vega= 0.061 w95=240.3
-  426 7DT_6000_fitted lambda_c= 6.0010e+03 AB-Vega= 0.109 w95=255.1
-  427 7DT_5500_fitted lambda_c= 5.5009e+03 AB-Vega= 0.016 w95=250.6
+  423 7DT_5000_fitted lambda_c= 5.0027e+03 AB-Vega= -0.056 w95=260.3
+  424 7DT_5250_fitted lambda_c= 5.2485e+03 AB-Vega= -0.029 w95=241.3
+  425 7DT_5500_fitted lambda_c= 5.5009e+03 AB-Vega= 0.016 w95=250.6
+  426 7DT_5750_fitted lambda_c= 5.7488e+03 AB-Vega= 0.061 w95=240.3
+  427 7DT_6000_fitted lambda_c= 6.0010e+03 AB-Vega= 0.109 w95=255.1
   428 7DT_6250_fitted lambda_c= 6.2478e+03 AB-Vega= 0.155 w95=237.0
   429 7DT_6500_fitted lambda_c= 6.5008e+03 AB-Vega= 0.255 w95=253.3
   430 7DT_6750_fitted lambda_c= 6.7447e+03 AB-Vega= 0.243 w95=252.8
