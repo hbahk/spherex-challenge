@@ -29,6 +29,9 @@ def plot_comp_hexbin(
     figsize=(12, 13),
     rfigsize=(12, 5),
     figclose=True,
+    figsave=True,
+    ax=None,
+    rax=None,
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -92,13 +95,19 @@ def plot_comp_hexbin(
         text_append = ""
 
     if not residual_plot:
-        fig, ax = plt.subplots(figsize=figsize)
+        if ax is None:
+            fig, ax = plt.subplots(figsize=figsize)
     else:
-        fig, axes = plt.subplots(2, 1, figsize=figsize,
-                               gridspec_kw={"height_ratios": [3, 1], "hspace":0})
-        ax = axes[0]
-        rax = axes[1]
-    
+        if (ax is None) and (rax is None):
+            fig, axes = plt.subplots(2, 1, figsize=figsize,
+                                gridspec_kw={"height_ratios": [3, 1], "hspace":0})
+            ax = axes[0]
+            rax = axes[1]
+        elif (ax is not None) and (rax is not None):
+            pass
+        else:
+            raise ValueError("Both ax and rax must be provided if residual_plot is True.")
+            
     divider = make_axes_locatable(ax)
     cax = divider.append_axes("right", size="5%", pad=0.1)
 
@@ -256,16 +265,18 @@ def plot_comp_hexbin(
     ax.tick_params(axis="both", direction="in", which="both")
 
     plt.tight_layout()
-    plt.savefig(out, dpi=300)
+    if figsave:
+        plt.savefig(out, dpi=300)
     if figclose:
         plt.close()
 
     return ids[outlier]
 
 
-def get_result_figures(base, figdir, scheme):
+def get_result_figures(base, figdir, scheme, pit=False, pitmask=None, pitmaskdesc=""):
     id_out = plot_comp_hexbin(base['z_true'], base['z_phot'], base['z_phot_chi2'],
                             figdir/'all_hexhist.png', base['id'],
+                            z_160=base['z160'], z_840=base['z840'],
                             label_x=r"$z_{\rm true}$", label_y=r"$z_{\rm phot}$",
                             title=f"EAZY 7DS ({scheme})", xmin=0.015, xmax=5.8, cmap='jet',
                             scatter_plot=False, gridsize=(87*2,50*2), log_scale=False,
@@ -513,3 +524,46 @@ def get_result_figures(base, figdir, scheme):
                             xmin=0.015, xmax=2.5, cmap='jet',
                             scatter_plot=True, gridsize=(87*2,50*2), log_scale=False,
                             residual_plot=True, residual_ylim=None, no_hexbin=True)
+    
+    if pit:
+        fig = plt.figure(figsize=(8, 6))
+        ax = fig.add_subplot(111)
+        ax.hist(base["pit"], bins=50, histtype="stepfilled", lw=1, color="cornflowerblue")
+        ax.set_xlabel("PIT")
+        ax.set_ylabel(r"$N$")
+        ax.set_title(f"PIT ({scheme})")
+        fig.tight_layout()
+        fig.savefig(figdir/"pit_hist.png")
+        plt.close()
+        
+        fig = plt.figure(figsize=(8, 6))
+        ax = fig.add_subplot(111)
+        ax.hist(np.log10(base["crps"]), bins=50, histtype="stepfilled", lw=1, color="cornflowerblue")
+        ax.set_xlabel(r"$\log$ CRPS")
+        ax.set_ylabel(r"$N$")
+        ax.set_title(f"CRPS ({scheme})")
+        ax.text(0.95, 0.95, f"Mean: {np.mean(base['crps']):.2e}", transform=ax.transAxes, ha="right", va="top")
+        fig.tight_layout()
+        fig.savefig(figdir/"crps_hist.png")
+        plt.close()
+        
+        if pitmask:
+            fig = plt.figure(figsize=(8, 6))
+            ax = fig.add_subplot(111)
+            ax.hist(base["pit"][pitmask], bins=30, histtype="stepfilled", lw=1, color="cornflowerblue")
+            ax.set_xlabel("PIT")
+            ax.set_ylabel(r"$N$")
+            ax.set_title(f"PIT [{pitmaskdesc}] ({scheme})")
+            fig.tight_layout()
+            fig.savefig(figdir/"pit_hist_masked.png")
+            plt.close()
+            
+            fig = plt.figure(figsize=(8, 6))
+            ax = fig.add_subplot(111)
+            ax.hist(np.log10(base["crps"][pitmask]), bins=30, histtype="stepfilled", lw=1, color="cornflowerblue")
+            ax.set_xlabel(r"$\log$ CRPS")
+            ax.set_ylabel(r"$N$")
+            ax.set_title(f"CRPS [{pitmaskdesc}] ({scheme})")
+            ax.text(0.95, 0.95, f"Mean: {np.mean(base['crps'][pitmask]):.2e}", transform=ax.transAxes, ha="right", va="top")
+            fig.tight_layout()
+            fig.savefig(figdir/"crps_hist_masked.png")
