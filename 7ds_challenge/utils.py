@@ -64,7 +64,7 @@ def plot_comp_hexbin(
     """
 
     z_cnd = (z_phot > 0.0) & (z_spec > 0.0) & (z_phot_chi2 > 0.0)
-    print(f"Objects : {np.sum(z_cnd):d}")
+    # print(f"Objects : {np.sum(z_cnd):d}")
 
     delta_z = z_phot - z_spec
     dz = delta_z / (1 + z_spec)
@@ -76,8 +76,8 @@ def plot_comp_hexbin(
     sigma = np.std(dz[z_cnd])
 
     outlier = z_cnd & (np.abs(dz) >= 0.15)
-    print(f"Outliers: {np.sum(outlier):d}")
-    print("\n")
+    # print(f"Outliers: {np.sum(outlier):d}")
+    # print("\n")
 
     if z_840 is not None and z_160 is not None:
         sigz = (np.max([z_840 - z_phot, z_phot - z_160], axis=0) / (1 + z_phot))
