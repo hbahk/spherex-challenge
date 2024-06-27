@@ -169,7 +169,7 @@ def plot_comp_hexbin(
                 ax.errorbar(xsc, ysc, yerr=yesc, fmt="o",
                             ms=5, lw=0.8, c="w", mec="k", ecolor="gray", zorder=1)
                 csc = ax.scatter(xsc, ysc, c=colorsc, s=20, lw=0.2,
-                                 ec="k", cmap="Purples_r", vmin=0, vmax=3, zorder=2)
+                                 ec="k", cmap="Blues_r", vmin=0, vmax=3, zorder=2)
             else:
                 ax.scatter(z_spec[z_cnd], z_phot[z_cnd], c="w", s=20, lw=0.2, ec="k")
             
@@ -547,7 +547,7 @@ def get_result_figures(base, figdir, scheme, pit=False, pitmask=None, pitmaskdes
         fig.savefig(figdir/"crps_hist.png")
         plt.close()
         
-        if pitmask:
+        if pitmask is not None:
             fig = plt.figure(figsize=(8, 6))
             ax = fig.add_subplot(111)
             ax.hist(base["pit"][pitmask], bins=30, histtype="stepfilled", lw=1, color="cornflowerblue")
