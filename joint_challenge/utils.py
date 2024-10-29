@@ -877,7 +877,11 @@ def plot_comp_hexbin(
     residual_ylabel=r"$\Delta z / (1+z)$",
     residual_ylim=None,
     figsize=(12, 13),
-    rfigsize=(12, 5)
+    rfigsize=(12, 5),
+    figclose=True,
+    figsave=True,
+    ax=None,
+    rax=None,
 ):
     """
     Plots a hexbin plot comparing spectroscopic redshifts (z_spec) and photometric
@@ -908,11 +912,9 @@ def plot_comp_hexbin(
     - outlier (array-like): Array of object IDs for the outliers.
 
     """
-    plt.rcParams["font.size"] = 20
-    plt.rcParams["axes.labelsize"] = 25
 
     z_cnd = (z_phot > 0.0) & (z_spec > 0.0) & (z_phot_chi2 > 0.0)
-    print(f"Objects : {np.sum(z_cnd):d}")
+    # print(f"Objects : {np.sum(z_cnd):d}")
 
     delta_z = z_phot - z_spec
     dz = delta_z / (1 + z_spec)
@@ -924,8 +926,8 @@ def plot_comp_hexbin(
     sigma = np.std(dz[z_cnd])
 
     outlier = z_cnd & (np.abs(dz) >= 0.15)
-    print(f"Outliers: {np.sum(outlier):d}")
-    print("\n")
+    # print(f"Outliers: {np.sum(outlier):d}")
+    # print("\n")
 
     if z_840 is not None and z_160 is not None:
         sigz = (np.max([z_840 - z_phot, z_phot - z_160], axis=0) / (1 + z_phot))
@@ -943,12 +945,21 @@ def plot_comp_hexbin(
         text_append = ""
 
     if not residual_plot:
-        fig, ax = plt.subplots(figsize=figsize)
+        if ax is None:
+            fig, ax = plt.subplots(figsize=figsize)
     else:
-        fig, axes = plt.subplots(2, 1, figsize=figsize,
-                               gridspec_kw={"height_ratios": [3, 1], "hspace":0})
-        ax = axes[0]
-        rax = axes[1]
+        if (ax is None) and (rax is None):
+            fig, axes = plt.subplots(2, 1, figsize=figsize,
+                                gridspec_kw={"height_ratios": [3, 1], "hspace":0})
+            ax = axes[0]
+            rax = axes[1]
+        elif (ax is not None) and (rax is not None):
+            pass
+        else:
+            raise ValueError("Both ax and rax must be provided if residual_plot is True.")
+            
+    divider = make_axes_locatable(ax)
+    cax = divider.append_axes("right", size="5%", pad=0.1)
 
     bins = "log" if color_log_scale else None
 
@@ -1008,7 +1019,7 @@ def plot_comp_hexbin(
                 ax.errorbar(xsc, ysc, yerr=yesc, fmt="o",
                             ms=5, lw=0.8, c="w", mec="k", ecolor="gray", zorder=1)
                 csc = ax.scatter(xsc, ysc, c=colorsc, s=20, lw=0.2,
-                                 ec="k", cmap="Purples_r", vmin=0, vmax=3, zorder=2)
+                                 ec="k", cmap="Blues_r", vmin=0, vmax=3, zorder=2)
             else:
                 ax.scatter(z_spec[z_cnd], z_phot[z_cnd], c="w", s=20, lw=0.2, ec="k")
             
@@ -1053,14 +1064,10 @@ def plot_comp_hexbin(
     ax.set_title(title)
 
     if not no_hexbin:
-        divider = make_axes_locatable(ax)
-        cax = divider.append_axes("right", size="5%", pad=0.1)
         cb = plt.colorbar(hb, cax=cax, label="counts")
     else:
         if z_840 is not None and z_160 is not None:
-            divider = make_axes_locatable(ax)
-            cax = divider.append_axes("right", size="5%", pad=0.1)
-            cb = plt.colorbar(csc, cax=cax, label=r"$|\Delta z / (1+z)|}$ [$\hat\sigma_{z/(1+\hat{z})}$]")
+            cb = plt.colorbar(csc, cax=cax, label=r"$|\Delta z / (1+z)|$ [$\hat\sigma_{z/(1+\hat{z})}$]")
 
     if residual_plot:
         # rfig = plt.figure(figsize=rfigsize)
@@ -1108,10 +1115,12 @@ def plot_comp_hexbin(
     ax.tick_params(axis="both", direction="in", which="both")
 
     plt.tight_layout()
-    plt.savefig(out, dpi=300)
-    #     plt.close()
+    if figsave:
+        plt.savefig(out, dpi=300)
+    if figclose:
+        plt.close()
 
-    return ax, ids[outlier]
+    return ids[outlier]
 
 
 def get_result_figures(base, figdir, scheme, pit=False, pitmask=None, pitmaskdesc=""):
