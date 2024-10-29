@@ -1,0 +1,28 @@
+2024-10-29 20:58:23,687 :: INFO :: Testing logger
+2024-10-29 21:00:43,469 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-29 21:00:46,056 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-29 21:00:46,057 :: INFO :: 0th batch already exists ==============
+2024-10-29 21:00:46,057 :: INFO :: 1th batch already exists ==============
+2024-10-29 21:00:46,057 :: INFO :: 2th batch already exists ==============
+2024-10-29 21:00:46,058 :: INFO :: Fitting 3th batch =====================
+2024-10-29 21:09:40,078 :: INFO ::  --- finished 3th batch in 00:08:54
+2024-10-29 21:09:40,079 :: INFO :: Fitting 4th batch =====================
+2024-10-29 21:16:37,302 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-29 21:16:37,303 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-29 21:16:40,262 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-29 21:16:40,263 :: INFO :: 0th batch already exists ==============
+2024-10-29 21:16:40,264 :: INFO :: 1th batch already exists ==============
+2024-10-29 21:16:40,264 :: INFO :: 2th batch already exists ==============
+2024-10-29 21:16:40,265 :: INFO :: 3th batch already exists ==============
+2024-10-29 21:16:40,265 :: INFO :: Fitting 4th batch =====================
+2024-10-29 21:29:45,347 :: INFO ::  --- finished 4th batch in 00:13:05
+2024-10-29 21:29:45,348 :: INFO :: Fitting 5th batch =====================
+2024-10-29 21:31:08,955 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-29 21:31:08,956 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-29 21:31:11,501 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-29 21:32:45,354 :: INFO :: 0th batch already exists ==============
+2024-10-29 21:32:45,355 :: INFO :: 1th batch already exists ==============
+2024-10-29 21:32:45,355 :: INFO :: 2th batch already exists ==============
+2024-10-29 21:32:45,356 :: INFO :: 3th batch already exists ==============
+2024-10-29 21:32:45,356 :: INFO :: 4th batch already exists ==============
+2024-10-29 21:32:45,357 :: INFO :: Fitting 5th batch =====================
