@@ -26,3 +26,15 @@
 2024-10-29 21:32:45,356 :: INFO :: 3th batch already exists ==============
 2024-10-29 21:32:45,356 :: INFO :: 4th batch already exists ==============
 2024-10-29 21:32:45,357 :: INFO :: Fitting 5th batch =====================
+2024-10-29 21:39:52,529 :: INFO ::  --- finished 5th batch in 00:07:07
+2024-10-29 21:39:52,530 :: INFO :: Fitting 6th batch =====================
+2024-10-29 21:42:58,854 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-29 21:42:58,855 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-29 21:42:59,430 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-29 21:44:57,406 :: INFO :: 0th batch already exists ==============
+2024-10-29 21:44:57,407 :: INFO :: 1th batch already exists ==============
+2024-10-29 21:44:57,407 :: INFO :: 2th batch already exists ==============
+2024-10-29 21:44:57,408 :: INFO :: 3th batch already exists ==============
+2024-10-29 21:44:57,408 :: INFO :: 4th batch already exists ==============
+2024-10-29 21:44:57,408 :: INFO :: 5th batch already exists ==============
+2024-10-29 21:44:57,409 :: INFO :: Fitting 6th batch =====================
