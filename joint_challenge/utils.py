@@ -60,8 +60,8 @@ def fit_object_single_template(fnu_i, efnu_i, A, TEFz, zp, array_dtype):
         except:
             coeffs = np.zeros(ntemp, dtype=array_dtype)
 
-        fmodel = np.dot(coeffs, A)
-        chi2 = np.sum((fnu_i - fmodel) ** 2 / var * ok_band)
+    fmodel = np.dot(coeffs, A)
+    chi2 = np.sum((fnu_i - fmodel) ** 2 / var * ok_band)
 
     return chi2, coeffs, fmodel
 
