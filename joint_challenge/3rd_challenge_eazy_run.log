@@ -38,3 +38,258 @@
 2024-10-29 21:44:57,408 :: INFO :: 4th batch already exists ==============
 2024-10-29 21:44:57,408 :: INFO :: 5th batch already exists ==============
 2024-10-29 21:44:57,409 :: INFO :: Fitting 6th batch =====================
+2024-10-29 21:52:10,321 :: INFO ::  --- finished 6th batch in 00:07:12
+2024-10-29 21:52:10,321 :: INFO :: Fitting 7th batch =====================
+2024-10-29 22:00:00,223 :: INFO ::  --- finished 7th batch in 00:07:49
+2024-10-29 22:00:00,224 :: INFO :: Fitting 8th batch =====================
+2024-10-29 22:07:49,367 :: INFO ::  --- finished 8th batch in 00:07:49
+2024-10-29 22:07:49,368 :: INFO :: Fitting 9th batch =====================
+2024-10-29 22:15:49,225 :: INFO ::  --- finished 9th batch in 00:07:59
+2024-10-29 22:15:49,225 :: INFO :: Fitting 10th batch =====================
+2024-10-29 22:24:18,822 :: INFO ::  --- finished 10th batch in 00:08:29
+2024-10-29 22:24:18,823 :: INFO :: Fitting 11th batch =====================
+2024-10-29 22:33:00,159 :: INFO ::  --- finished 11th batch in 00:08:41
+2024-10-29 22:33:00,174 :: INFO :: Fitting 12th batch =====================
+2024-10-29 22:41:38,628 :: INFO ::  --- finished 12th batch in 00:08:38
+2024-10-29 22:41:38,628 :: INFO :: Fitting 13th batch =====================
+2024-10-29 22:50:19,048 :: INFO ::  --- finished 13th batch in 00:08:40
+2024-10-29 22:50:19,049 :: INFO :: Fitting 14th batch =====================
+2024-10-29 22:59:27,189 :: INFO ::  --- finished 14th batch in 00:09:08
+2024-10-29 22:59:27,190 :: INFO :: Fitting 15th batch =====================
+2024-10-29 23:09:06,257 :: INFO ::  --- finished 15th batch in 00:09:39
+2024-10-29 23:09:06,258 :: INFO :: Fitting 16th batch =====================
+2024-10-29 23:18:22,427 :: INFO ::  --- finished 16th batch in 00:09:16
+2024-10-29 23:18:22,437 :: INFO :: Fitting 17th batch =====================
+2024-10-29 23:27:46,902 :: INFO ::  --- finished 17th batch in 00:09:24
+2024-10-29 23:27:46,902 :: INFO :: Fitting 18th batch =====================
+2024-10-29 23:37:49,474 :: INFO ::  --- finished 18th batch in 00:10:02
+2024-10-29 23:37:49,475 :: INFO :: Fitting 19th batch =====================
+2024-10-29 23:49:03,387 :: INFO ::  --- finished 19th batch in 00:11:13
+2024-10-29 23:49:03,387 :: INFO :: Fitting 20th batch =====================
+2024-10-29 23:58:46,289 :: INFO ::  --- finished 20th batch in 00:09:42
+2024-10-29 23:58:46,289 :: INFO :: Fitting 21th batch =====================
+2024-10-30 00:00:07,475 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-30 00:00:07,476 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:00:09,505 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:00:09,506 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:00:09,506 :: INFO :: 1th batch already exists ==============
+2024-10-30 00:00:09,507 :: INFO :: 2th batch already exists ==============
+2024-10-30 00:00:09,507 :: INFO :: 3th batch already exists ==============
+2024-10-30 00:00:09,507 :: INFO :: 4th batch already exists ==============
+2024-10-30 00:00:09,507 :: INFO :: 5th batch already exists ==============
+2024-10-30 00:00:09,508 :: INFO :: 6th batch already exists ==============
+2024-10-30 00:00:09,508 :: INFO :: 7th batch already exists ==============
+2024-10-30 00:00:09,508 :: INFO :: 8th batch already exists ==============
+2024-10-30 00:00:09,509 :: INFO :: 9th batch already exists ==============
+2024-10-30 00:00:09,509 :: INFO :: 10th batch already exists ==============
+2024-10-30 00:00:09,509 :: INFO :: 11th batch already exists ==============
+2024-10-30 00:00:09,510 :: INFO :: 12th batch already exists ==============
+2024-10-30 00:00:09,510 :: INFO :: 13th batch already exists ==============
+2024-10-30 00:00:09,511 :: INFO :: 14th batch already exists ==============
+2024-10-30 00:00:09,511 :: INFO :: 15th batch already exists ==============
+2024-10-30 00:00:09,511 :: INFO :: 16th batch already exists ==============
+2024-10-30 00:00:09,511 :: INFO :: 17th batch already exists ==============
+2024-10-30 00:00:09,512 :: INFO :: 18th batch already exists ==============
+2024-10-30 00:00:09,512 :: INFO :: 19th batch already exists ==============
+2024-10-30 00:00:09,512 :: INFO :: 20th batch already exists ==============
+2024-10-30 00:00:09,513 :: INFO :: Fitting 21th batch =====================
+2024-10-30 00:01:20,387 :: INFO ::  --- finished 21th batch in 00:01:10
+2024-10-30 00:01:25,105 :: INFO :: Finished in 00:01:17
+2024-10-30 00:01:25,122 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-30 00:01:25,122 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:01:25,252 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-30 00:01:25,253 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:02:11,900 :: INFO ::  --- finished 0th batch in 00:00:46
+2024-10-30 00:02:12,125 :: INFO :: Finished in 00:00:47
+2024-10-30 00:02:12,128 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-30 00:02:12,128 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:02:13,729 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:02:13,730 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:07:47,253 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-30 00:07:47,264 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:07:50,453 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:07:50,454 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:07:50,455 :: INFO :: 1th batch already exists ==============
+2024-10-30 00:07:50,455 :: INFO :: 2th batch already exists ==============
+2024-10-30 00:07:50,456 :: INFO :: 3th batch already exists ==============
+2024-10-30 00:07:50,456 :: INFO :: 4th batch already exists ==============
+2024-10-30 00:07:50,457 :: INFO :: 5th batch already exists ==============
+2024-10-30 00:07:50,457 :: INFO :: 6th batch already exists ==============
+2024-10-30 00:07:50,458 :: INFO :: 7th batch already exists ==============
+2024-10-30 00:07:50,458 :: INFO :: 8th batch already exists ==============
+2024-10-30 00:07:50,459 :: INFO :: 9th batch already exists ==============
+2024-10-30 00:07:50,459 :: INFO :: 10th batch already exists ==============
+2024-10-30 00:07:50,460 :: INFO :: 11th batch already exists ==============
+2024-10-30 00:07:50,460 :: INFO :: 12th batch already exists ==============
+2024-10-30 00:07:50,461 :: INFO :: 13th batch already exists ==============
+2024-10-30 00:07:50,461 :: INFO :: 14th batch already exists ==============
+2024-10-30 00:07:50,462 :: INFO :: 15th batch already exists ==============
+2024-10-30 00:07:50,462 :: INFO :: 16th batch already exists ==============
+2024-10-30 00:07:50,462 :: INFO :: 17th batch already exists ==============
+2024-10-30 00:07:50,463 :: INFO :: 18th batch already exists ==============
+2024-10-30 00:07:50,463 :: INFO :: 19th batch already exists ==============
+2024-10-30 00:07:50,464 :: INFO :: 20th batch already exists ==============
+2024-10-30 00:07:50,464 :: INFO :: 21th batch already exists ==============
+2024-10-30 00:08:00,636 :: INFO :: Finished in 00:00:13
+2024-10-30 00:08:00,660 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-30 00:08:00,661 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:08:00,796 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-30 00:08:00,797 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:08:01,066 :: INFO :: Finished in 00:00:00
+2024-10-30 00:08:01,067 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-30 00:08:01,067 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:08:04,281 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:08:04,281 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:13:57,809 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-30 00:13:57,815 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:14:01,136 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:14:01,137 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:14:01,137 :: INFO :: 1th batch already exists ==============
+2024-10-30 00:14:01,138 :: INFO :: 2th batch already exists ==============
+2024-10-30 00:14:01,138 :: INFO :: 3th batch already exists ==============
+2024-10-30 00:14:01,139 :: INFO :: 4th batch already exists ==============
+2024-10-30 00:14:01,139 :: INFO :: 5th batch already exists ==============
+2024-10-30 00:14:01,140 :: INFO :: 6th batch already exists ==============
+2024-10-30 00:14:01,140 :: INFO :: 7th batch already exists ==============
+2024-10-30 00:14:01,141 :: INFO :: 8th batch already exists ==============
+2024-10-30 00:14:01,141 :: INFO :: 9th batch already exists ==============
+2024-10-30 00:14:01,142 :: INFO :: 10th batch already exists ==============
+2024-10-30 00:14:01,142 :: INFO :: 11th batch already exists ==============
+2024-10-30 00:14:01,143 :: INFO :: 12th batch already exists ==============
+2024-10-30 00:14:01,143 :: INFO :: 13th batch already exists ==============
+2024-10-30 00:14:01,143 :: INFO :: 14th batch already exists ==============
+2024-10-30 00:14:01,144 :: INFO :: 15th batch already exists ==============
+2024-10-30 00:14:01,144 :: INFO :: 16th batch already exists ==============
+2024-10-30 00:14:01,145 :: INFO :: 17th batch already exists ==============
+2024-10-30 00:14:01,145 :: INFO :: 18th batch already exists ==============
+2024-10-30 00:14:01,146 :: INFO :: 19th batch already exists ==============
+2024-10-30 00:14:01,146 :: INFO :: 20th batch already exists ==============
+2024-10-30 00:14:01,146 :: INFO :: 21th batch already exists ==============
+2024-10-30 00:14:12,666 :: INFO :: Finished in 00:00:14
+2024-10-30 00:14:12,692 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-30 00:14:12,693 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:14:12,830 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-30 00:14:12,832 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:14:13,108 :: INFO :: Finished in 00:00:00
+2024-10-30 00:14:13,109 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-30 00:14:13,110 :: INFO :: Running fit_and_save_result_prior with 0 processes
+2024-10-30 00:14:15,052 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:14:15,053 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:15:55,685 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-30 00:15:55,686 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:15:56,600 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:15:56,601 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:15:56,602 :: INFO :: 1th batch already exists ==============
+2024-10-30 00:15:56,602 :: INFO :: 2th batch already exists ==============
+2024-10-30 00:15:56,603 :: INFO :: 3th batch already exists ==============
+2024-10-30 00:15:56,604 :: INFO :: 4th batch already exists ==============
+2024-10-30 00:15:56,605 :: INFO :: 5th batch already exists ==============
+2024-10-30 00:15:56,605 :: INFO :: 6th batch already exists ==============
+2024-10-30 00:15:56,606 :: INFO :: 7th batch already exists ==============
+2024-10-30 00:15:56,607 :: INFO :: 8th batch already exists ==============
+2024-10-30 00:15:56,608 :: INFO :: 9th batch already exists ==============
+2024-10-30 00:15:56,608 :: INFO :: 10th batch already exists ==============
+2024-10-30 00:15:56,609 :: INFO :: 11th batch already exists ==============
+2024-10-30 00:15:56,610 :: INFO :: 12th batch already exists ==============
+2024-10-30 00:15:56,611 :: INFO :: 13th batch already exists ==============
+2024-10-30 00:15:56,612 :: INFO :: 14th batch already exists ==============
+2024-10-30 00:15:56,612 :: INFO :: 15th batch already exists ==============
+2024-10-30 00:15:56,613 :: INFO :: 16th batch already exists ==============
+2024-10-30 00:15:56,614 :: INFO :: 17th batch already exists ==============
+2024-10-30 00:15:56,615 :: INFO :: 18th batch already exists ==============
+2024-10-30 00:15:56,615 :: INFO :: 19th batch already exists ==============
+2024-10-30 00:15:56,616 :: INFO :: 20th batch already exists ==============
+2024-10-30 00:15:56,617 :: INFO :: 21th batch already exists ==============
+2024-10-30 00:16:10,841 :: INFO :: Finished in 00:00:15
+2024-10-30 00:16:10,848 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-30 00:16:10,849 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:16:10,958 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-30 00:16:10,959 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:16:11,202 :: INFO :: Finished in 00:00:00
+2024-10-30 00:16:11,202 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-30 00:16:11,203 :: INFO :: Running fit_and_save_result_prior with 0 processes
+2024-10-30 00:16:11,643 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:16:11,644 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:19:31,084 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-30 00:19:31,085 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:19:33,426 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:19:33,427 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:19:33,428 :: INFO :: 1th batch already exists ==============
+2024-10-30 00:19:33,428 :: INFO :: 2th batch already exists ==============
+2024-10-30 00:19:33,429 :: INFO :: 3th batch already exists ==============
+2024-10-30 00:19:33,429 :: INFO :: 4th batch already exists ==============
+2024-10-30 00:19:33,430 :: INFO :: 5th batch already exists ==============
+2024-10-30 00:19:33,430 :: INFO :: 6th batch already exists ==============
+2024-10-30 00:19:33,431 :: INFO :: 7th batch already exists ==============
+2024-10-30 00:19:33,431 :: INFO :: 8th batch already exists ==============
+2024-10-30 00:19:33,432 :: INFO :: 9th batch already exists ==============
+2024-10-30 00:19:33,432 :: INFO :: 10th batch already exists ==============
+2024-10-30 00:19:33,432 :: INFO :: 11th batch already exists ==============
+2024-10-30 00:19:33,433 :: INFO :: 12th batch already exists ==============
+2024-10-30 00:19:33,433 :: INFO :: 13th batch already exists ==============
+2024-10-30 00:19:33,434 :: INFO :: 14th batch already exists ==============
+2024-10-30 00:19:33,434 :: INFO :: 15th batch already exists ==============
+2024-10-30 00:19:33,435 :: INFO :: 16th batch already exists ==============
+2024-10-30 00:19:33,435 :: INFO :: 17th batch already exists ==============
+2024-10-30 00:19:33,436 :: INFO :: 18th batch already exists ==============
+2024-10-30 00:19:33,436 :: INFO :: 19th batch already exists ==============
+2024-10-30 00:19:33,437 :: INFO :: 20th batch already exists ==============
+2024-10-30 00:19:33,437 :: INFO :: 21th batch already exists ==============
+2024-10-30 00:19:42,775 :: INFO :: Finished in 00:00:11
+2024-10-30 00:19:42,796 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-30 00:19:42,796 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:19:42,902 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-30 00:19:42,903 :: INFO :: 0th batch already exists ==============
+2024-10-30 00:19:43,136 :: INFO :: Finished in 00:00:00
+2024-10-30 00:19:43,137 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-30 00:19:43,138 :: INFO :: Running fit_and_save_result_prior with 0 processes
+2024-10-30 00:19:45,131 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:19:45,132 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:24:06,817 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-30 00:24:06,826 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 00:24:07,321 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-30 00:24:07,322 :: INFO :: Fitting 0th batch =====================
+2024-10-30 00:31:15,171 :: INFO ::  --- finished 0th batch in 00:07:07
+2024-10-30 00:31:15,172 :: INFO :: Fitting 1th batch =====================
+2024-10-30 00:38:44,293 :: INFO ::  --- finished 1th batch in 00:07:29
+2024-10-30 00:38:44,294 :: INFO :: Fitting 2th batch =====================
+2024-10-30 00:46:45,799 :: INFO ::  --- finished 2th batch in 00:08:01
+2024-10-30 00:46:45,800 :: INFO :: Fitting 3th batch =====================
+2024-10-30 00:54:48,285 :: INFO ::  --- finished 3th batch in 00:08:02
+2024-10-30 00:54:48,286 :: INFO :: Fitting 4th batch =====================
+2024-10-30 01:02:39,075 :: INFO ::  --- finished 4th batch in 00:07:50
+2024-10-30 01:02:39,076 :: INFO :: Fitting 5th batch =====================
+2024-10-30 01:10:26,536 :: INFO ::  --- finished 5th batch in 00:07:47
+2024-10-30 01:10:26,537 :: INFO :: Fitting 6th batch =====================
+2024-10-30 01:18:19,469 :: INFO ::  --- finished 6th batch in 00:07:52
+2024-10-30 01:18:19,470 :: INFO :: Fitting 7th batch =====================
+2024-10-30 01:26:17,606 :: INFO ::  --- finished 7th batch in 00:07:58
+2024-10-30 01:26:17,606 :: INFO :: Fitting 8th batch =====================
+2024-10-30 01:34:04,834 :: INFO ::  --- finished 8th batch in 00:07:47
+2024-10-30 01:34:04,835 :: INFO :: Fitting 9th batch =====================
+2024-10-30 01:41:41,160 :: INFO ::  --- finished 9th batch in 00:07:36
+2024-10-30 01:41:41,161 :: INFO :: Fitting 10th batch =====================
+2024-10-30 01:49:31,221 :: INFO ::  --- finished 10th batch in 00:07:50
+2024-10-30 01:49:31,222 :: INFO :: Fitting 11th batch =====================
+2024-10-30 01:57:28,803 :: INFO ::  --- finished 11th batch in 00:07:57
+2024-10-30 01:57:28,804 :: INFO :: Fitting 12th batch =====================
+2024-10-30 02:05:18,315 :: INFO ::  --- finished 12th batch in 00:07:49
+2024-10-30 02:05:18,316 :: INFO :: Fitting 13th batch =====================
+2024-10-30 02:12:52,713 :: INFO ::  --- finished 13th batch in 00:07:34
+2024-10-30 02:12:52,714 :: INFO :: Fitting 14th batch =====================
+2024-10-30 02:20:32,491 :: INFO ::  --- finished 14th batch in 00:07:39
+2024-10-30 02:20:32,501 :: INFO :: Fitting 15th batch =====================
+2024-10-30 02:28:27,746 :: INFO ::  --- finished 15th batch in 00:07:55
+2024-10-30 02:28:27,747 :: INFO :: Fitting 16th batch =====================
+2024-10-30 02:36:11,359 :: INFO ::  --- finished 16th batch in 00:07:43
+2024-10-30 02:36:11,369 :: INFO :: Fitting 17th batch =====================
+2024-10-30 02:44:03,994 :: INFO ::  --- finished 17th batch in 00:07:52
+2024-10-30 02:44:04,003 :: INFO :: Fitting 18th batch =====================
+2024-10-30 02:52:00,257 :: INFO ::  --- finished 18th batch in 00:07:56
+2024-10-30 02:52:00,270 :: INFO :: Fitting 19th batch =====================
+2024-10-30 02:59:37,532 :: INFO ::  --- finished 19th batch in 00:07:37
+2024-10-30 02:59:37,532 :: INFO :: Fitting 20th batch =====================
+2024-10-30 03:07:12,645 :: INFO ::  --- finished 20th batch in 00:07:35
+2024-10-30 03:07:12,655 :: INFO :: Fitting 21th batch =====================
+2024-10-30 03:08:39,694 :: INFO ::  --- finished 21th batch in 00:01:27
+2024-10-30 03:08:43,098 :: INFO :: Finished in 02:44:36
