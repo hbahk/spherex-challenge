@@ -1,0 +1,22 @@
+2024-10-31 15:55:14,417 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 15:55:14,418 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:57:22,742 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 15:57:22,761 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:57:22,762 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 15:57:22,763 :: INFO :: Fitting 0th batch =====================
+2024-10-31 15:58:31,023 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 15:58:31,024 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:58:31,024 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 15:58:31,025 :: INFO :: Fitting 0th batch =====================
+2024-10-31 15:59:09,092 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 15:59:09,093 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:59:09,094 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 15:59:09,094 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:00:22,443 :: INFO ::  --- finished 0th batch in 00:01:13
+2024-10-31 16:00:22,726 :: INFO :: Finished in 00:01:13
+2024-10-31 16:13:45,905 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 16:13:45,919 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 16:13:46,035 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 16:13:46,036 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:14:30,961 :: INFO ::  --- finished 0th batch in 00:00:44
+2024-10-31 16:14:31,192 :: INFO :: Finished in 00:00:45

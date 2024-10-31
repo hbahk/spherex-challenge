@@ -915,16 +915,28 @@ def pz_percentiles(self, percentiles=[2.5, 16, 50, 84, 97.5], oversample=5, sele
 
 def fit_and_save_result_prior(
     params, tempfilt, logger, n_proc=1, rerun=False, run_single_template=True,
-    translate_file=None,
+    translate_file=None, multiple_fluxerr=1.,
 ):
+    params = params.copy()
     start = time.time()
     logger.info(f"Running fit_and_save_result_prior with {n_proc} processes")
 
     dir_output = Path(params["OUTPUT_DIRECTORY"])
 
-    base = Table.read(params["CATALOG_FILE"])
+    if hasattr(params["CATALOG_FILE"], "colnames"):
+        base = params["CATALOG_FILE"]
+    else:
+        base = Table.read(params["CATALOG_FILE"])
+        
     Ncat = len(base)
     Nbatch = np.ceil(Ncat / 10000).astype(int)
+    
+    if multiple_fluxerr != 1:
+        logger.info(f"Multiply flux errors by {multiple_fluxerr:.2f} ================")
+        logger.info(f"Fitting {Ncat} objects in {Nbatch} batches ==")
+        for colname in base.colnames:
+            if colname.startswith("E"):
+                base[colname] *= multiple_fluxerr
 
     logger.info(f"Fitting {Ncat} objects in {Nbatch} batches ==")
 
