@@ -20,3 +20,24 @@
 2024-10-31 16:13:46,036 :: INFO :: Fitting 0th batch =====================
 2024-10-31 16:14:30,961 :: INFO ::  --- finished 0th batch in 00:00:44
 2024-10-31 16:14:31,192 :: INFO :: Finished in 00:00:45
+2024-10-31 16:54:29,353 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 16:54:29,464 :: INFO :: Multiply flux errors by 1.30 ================
+2024-10-31 16:54:29,464 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 16:54:29,479 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 16:54:29,480 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:55:15,457 :: INFO ::  --- finished 0th batch in 00:00:45
+2024-10-31 16:55:15,685 :: INFO :: Finished in 00:00:46
+2024-10-31 16:56:53,769 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 16:56:53,882 :: INFO :: Multiply flux errors by 2.00 ================
+2024-10-31 16:56:53,883 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 16:56:53,898 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 16:56:53,898 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:57:40,804 :: INFO ::  --- finished 0th batch in 00:00:46
+2024-10-31 16:57:41,035 :: INFO :: Finished in 00:00:47
+2024-10-31 17:01:33,230 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 17:01:33,350 :: INFO :: Multiply flux errors by 1.50 ================
+2024-10-31 17:01:33,350 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 17:01:33,367 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 17:01:33,368 :: INFO :: Fitting 0th batch =====================
+2024-10-31 17:02:19,527 :: INFO ::  --- finished 0th batch in 00:00:46
+2024-10-31 17:02:19,754 :: INFO :: Finished in 00:00:46

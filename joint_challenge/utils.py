@@ -937,6 +937,8 @@ def fit_and_save_result_prior(
         for colname in base.colnames:
             if colname.startswith("E"):
                 base[colname] *= multiple_fluxerr
+                
+    params["CATALOG_FILE"] = base
 
     logger.info(f"Fitting {Ncat} objects in {Nbatch} batches ==")
 

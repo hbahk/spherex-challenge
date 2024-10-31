@@ -494,3 +494,109 @@
 2024-10-31 15:50:20,771 :: INFO :: Fitting 0th batch =====================
 2024-10-31 16:06:43,445 :: INFO ::  --- finished 0th batch in 00:16:22
 2024-10-31 16:06:43,446 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:26:07,180 :: INFO :: >>>> (re)starting GAMA_7DS_RIS
+2024-10-31 16:26:07,181 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:26:07,307 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:26:07,308 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:26:32,694 :: INFO ::  --- finished 0th batch in 00:00:25
+2024-10-31 16:26:32,695 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:27:07,976 :: INFO :: >>>> (re)starting GAMA_7DS_RIS
+2024-10-31 16:27:07,977 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:27:08,030 :: INFO :: Multiply flux errors by 1.30 ================
+2024-10-31 16:27:08,030 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:27:08,051 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:27:08,051 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:27:32,404 :: INFO ::  --- finished 0th batch in 00:00:24
+2024-10-31 16:27:32,405 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:27:51,255 :: INFO ::  --- finished 1th batch in 00:00:18
+2024-10-31 16:27:51,256 :: INFO :: Fitting 2th batch =====================
+2024-10-31 16:28:12,416 :: INFO ::  --- finished 2th batch in 00:00:21
+2024-10-31 16:28:12,416 :: INFO :: Fitting 3th batch =====================
+2024-10-31 16:28:32,191 :: INFO ::  --- finished 3th batch in 00:00:19
+2024-10-31 16:28:32,192 :: INFO :: Fitting 4th batch =====================
+2024-10-31 16:28:45,658 :: INFO ::  --- finished 4th batch in 00:00:13
+2024-10-31 16:28:45,881 :: INFO :: Finished in 00:01:37
+2024-10-31 16:28:45,920 :: INFO :: >>>> (re)starting GAMA_7DS_IMS
+2024-10-31 16:28:45,922 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:28:46,046 :: INFO :: Multiply flux errors by 1.30 ================
+2024-10-31 16:28:46,046 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:28:46,064 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:28:46,065 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:29:05,963 :: INFO ::  --- finished 0th batch in 00:00:19
+2024-10-31 16:29:05,964 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:29:27,368 :: INFO ::  --- finished 1th batch in 00:00:21
+2024-10-31 16:29:27,369 :: INFO :: Fitting 2th batch =====================
+2024-10-31 16:29:49,152 :: INFO ::  --- finished 2th batch in 00:00:21
+2024-10-31 16:29:49,153 :: INFO :: Fitting 3th batch =====================
+2024-10-31 16:30:11,268 :: INFO ::  --- finished 3th batch in 00:00:22
+2024-10-31 16:30:11,269 :: INFO :: Fitting 4th batch =====================
+2024-10-31 16:30:23,550 :: INFO ::  --- finished 4th batch in 00:00:12
+2024-10-31 16:30:23,715 :: INFO :: Finished in 00:01:37
+2024-10-31 16:30:23,754 :: INFO :: >>>> (re)starting GAMA_7DS_WFS
+2024-10-31 16:30:23,755 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:30:23,874 :: INFO :: Multiply flux errors by 1.30 ================
+2024-10-31 16:30:23,875 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:30:23,890 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:30:23,890 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:30:44,929 :: INFO ::  --- finished 0th batch in 00:00:21
+2024-10-31 16:30:44,930 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:31:04,809 :: INFO ::  --- finished 1th batch in 00:00:19
+2024-10-31 16:31:04,810 :: INFO :: Fitting 2th batch =====================
+2024-10-31 16:31:26,294 :: INFO ::  --- finished 2th batch in 00:00:21
+2024-10-31 16:31:26,295 :: INFO :: Fitting 3th batch =====================
+2024-10-31 16:31:46,923 :: INFO ::  --- finished 3th batch in 00:00:20
+2024-10-31 16:31:46,924 :: INFO :: Fitting 4th batch =====================
+2024-10-31 16:31:59,889 :: INFO ::  --- finished 4th batch in 00:00:12
+2024-10-31 16:32:00,072 :: INFO :: Finished in 00:01:36
+2024-10-31 16:38:09,736 :: INFO :: >>>> (re)starting GAMA_7DS_IMS
+2024-10-31 16:38:09,737 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:38:09,781 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:38:09,782 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:38:30,814 :: INFO ::  --- finished 0th batch in 00:00:21
+2024-10-31 16:38:30,815 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:38:51,952 :: INFO ::  --- finished 1th batch in 00:00:21
+2024-10-31 16:38:51,953 :: INFO :: Fitting 2th batch =====================
+2024-10-31 16:39:12,446 :: INFO ::  --- finished 2th batch in 00:00:20
+2024-10-31 16:39:12,447 :: INFO :: Fitting 3th batch =====================
+2024-10-31 16:39:34,190 :: INFO ::  --- finished 3th batch in 00:00:21
+2024-10-31 16:39:34,191 :: INFO :: Fitting 4th batch =====================
+2024-10-31 16:39:46,895 :: INFO ::  --- finished 4th batch in 00:00:12
+2024-10-31 16:39:47,085 :: INFO :: Finished in 00:01:37
+2024-10-31 16:43:19,988 :: INFO :: >>>> (re)starting GAMA_7DS_IMS
+2024-10-31 16:43:19,989 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:43:20,035 :: INFO :: Multiply flux errors by 1.30 ================
+2024-10-31 16:43:20,036 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:43:20,056 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:43:20,056 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:43:40,601 :: INFO ::  --- finished 0th batch in 00:00:20
+2024-10-31 16:43:40,602 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:44:01,703 :: INFO ::  --- finished 1th batch in 00:00:21
+2024-10-31 16:44:01,704 :: INFO :: Fitting 2th batch =====================
+2024-10-31 16:44:23,135 :: INFO ::  --- finished 2th batch in 00:00:21
+2024-10-31 16:44:23,136 :: INFO :: Fitting 3th batch =====================
+2024-10-31 16:44:43,886 :: INFO ::  --- finished 3th batch in 00:00:20
+2024-10-31 16:44:43,887 :: INFO :: Fitting 4th batch =====================
+2024-10-31 16:44:56,928 :: INFO ::  --- finished 4th batch in 00:00:13
+2024-10-31 16:44:57,088 :: INFO :: Finished in 00:01:37
+2024-10-31 16:48:11,350 :: INFO :: >>>> (re)starting GAMA_7DS_IMS
+2024-10-31 16:48:11,351 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-31 16:48:11,393 :: INFO :: Multiply flux errors by 2.00 ================
+2024-10-31 16:48:11,394 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:48:11,410 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-31 16:48:11,410 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:48:31,518 :: INFO ::  --- finished 0th batch in 00:00:20
+2024-10-31 16:48:31,519 :: INFO :: Fitting 1th batch =====================
+2024-10-31 16:48:53,204 :: INFO ::  --- finished 1th batch in 00:00:21
+2024-10-31 16:48:53,205 :: INFO :: Fitting 2th batch =====================
+2024-10-31 16:49:14,677 :: INFO ::  --- finished 2th batch in 00:00:21
+2024-10-31 16:49:14,678 :: INFO :: Fitting 3th batch =====================
+2024-10-31 16:49:36,544 :: INFO ::  --- finished 3th batch in 00:00:21
+2024-10-31 16:49:36,545 :: INFO :: Fitting 4th batch =====================
+2024-10-31 16:49:49,207 :: INFO ::  --- finished 4th batch in 00:00:12
+2024-10-31 16:49:49,368 :: INFO :: Finished in 00:01:38
+2024-10-31 16:49:49,423 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 16:49:49,424 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 16:49:49,565 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 16:49:49,566 :: INFO :: Fitting 0th batch =====================
+2024-10-31 16:50:37,108 :: INFO ::  --- finished 0th batch in 00:00:47
+2024-10-31 16:50:37,339 :: INFO :: Finished in 00:00:47
