@@ -293,3 +293,194 @@
 2024-10-30 03:07:12,655 :: INFO :: Fitting 21th batch =====================
 2024-10-30 03:08:39,694 :: INFO ::  --- finished 21th batch in 00:01:27
 2024-10-30 03:08:43,098 :: INFO :: Finished in 02:44:36
+2024-10-30 16:03:00,071 :: INFO :: >>>> (re)starting GAMA_7DS_RIS
+2024-10-30 16:03:00,089 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-30 16:03:00,132 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-30 16:03:00,132 :: INFO :: Fitting 0th batch =====================
+2024-10-30 16:06:12,330 :: INFO ::  --- finished 0th batch in 00:03:12
+2024-10-30 16:06:12,331 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:07:03,281 :: INFO :: >>>> (re)starting GAMA_7DS_RIS
+2024-10-30 16:07:03,282 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-30 16:07:03,348 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-30 16:07:03,349 :: INFO :: 0th batch already exists ==============
+2024-10-30 16:07:03,349 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:07:27,277 :: INFO ::  --- finished 1th batch in 00:00:23
+2024-10-30 16:07:27,278 :: INFO :: Fitting 2th batch =====================
+2024-10-30 16:07:50,885 :: INFO ::  --- finished 2th batch in 00:00:23
+2024-10-30 16:07:50,885 :: INFO :: Fitting 3th batch =====================
+2024-10-30 16:08:14,750 :: INFO ::  --- finished 3th batch in 00:00:23
+2024-10-30 16:08:14,751 :: INFO :: Fitting 4th batch =====================
+2024-10-30 16:08:29,433 :: INFO ::  --- finished 4th batch in 00:00:14
+2024-10-30 16:08:29,601 :: INFO :: Finished in 00:01:26
+2024-10-30 16:08:29,643 :: INFO :: >>>> (re)starting GAMA_7DS_IMS
+2024-10-30 16:08:29,643 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-30 16:08:29,763 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-30 16:08:29,764 :: INFO :: Fitting 0th batch =====================
+2024-10-30 16:08:56,796 :: INFO ::  --- finished 0th batch in 00:00:27
+2024-10-30 16:08:56,797 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:09:21,926 :: INFO ::  --- finished 1th batch in 00:00:25
+2024-10-30 16:09:21,926 :: INFO :: Fitting 2th batch =====================
+2024-10-30 16:09:45,268 :: INFO ::  --- finished 2th batch in 00:00:23
+2024-10-30 16:09:45,269 :: INFO :: Fitting 3th batch =====================
+2024-10-30 16:10:08,891 :: INFO ::  --- finished 3th batch in 00:00:23
+2024-10-30 16:10:08,892 :: INFO :: Fitting 4th batch =====================
+2024-10-30 16:10:21,718 :: INFO ::  --- finished 4th batch in 00:00:12
+2024-10-30 16:10:21,873 :: INFO :: Finished in 00:01:52
+2024-10-30 16:10:21,904 :: INFO :: >>>> (re)starting GAMA_7DS_WFS
+2024-10-30 16:10:21,905 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-30 16:10:22,021 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-10-30 16:10:22,022 :: INFO :: Fitting 0th batch =====================
+2024-10-30 16:10:44,409 :: INFO ::  --- finished 0th batch in 00:00:22
+2024-10-30 16:10:44,410 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:11:09,428 :: INFO ::  --- finished 1th batch in 00:00:25
+2024-10-30 16:11:09,429 :: INFO :: Fitting 2th batch =====================
+2024-10-30 16:11:32,815 :: INFO ::  --- finished 2th batch in 00:00:23
+2024-10-30 16:11:32,816 :: INFO :: Fitting 3th batch =====================
+2024-10-30 16:11:57,265 :: INFO ::  --- finished 3th batch in 00:00:24
+2024-10-30 16:11:57,265 :: INFO :: Fitting 4th batch =====================
+2024-10-30 16:12:11,737 :: INFO ::  --- finished 4th batch in 00:00:14
+2024-10-30 16:12:11,904 :: INFO :: Finished in 00:01:49
+2024-10-30 16:14:36,961 :: INFO :: >>>> (re)starting COSMOS_7DS_RIS
+2024-10-30 16:14:36,962 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-30 16:14:37,362 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-10-30 16:14:37,362 :: INFO :: Fitting 0th batch =====================
+2024-10-30 16:15:13,193 :: INFO ::  --- finished 0th batch in 00:00:35
+2024-10-30 16:15:13,193 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:15:50,248 :: INFO ::  --- finished 1th batch in 00:00:37
+2024-10-30 16:15:50,249 :: INFO :: Fitting 2th batch =====================
+2024-10-30 16:16:24,305 :: INFO ::  --- finished 2th batch in 00:00:34
+2024-10-30 16:16:24,306 :: INFO :: Fitting 3th batch =====================
+2024-10-30 16:17:00,060 :: INFO ::  --- finished 3th batch in 00:00:35
+2024-10-30 16:17:00,061 :: INFO :: Fitting 4th batch =====================
+2024-10-30 16:17:32,504 :: INFO ::  --- finished 4th batch in 00:00:32
+2024-10-30 16:17:32,505 :: INFO :: Fitting 5th batch =====================
+2024-10-30 16:18:02,982 :: INFO ::  --- finished 5th batch in 00:00:30
+2024-10-30 16:18:02,982 :: INFO :: Fitting 6th batch =====================
+2024-10-30 16:18:32,446 :: INFO ::  --- finished 6th batch in 00:00:29
+2024-10-30 16:18:32,447 :: INFO :: Fitting 7th batch =====================
+2024-10-30 16:19:01,543 :: INFO ::  --- finished 7th batch in 00:00:29
+2024-10-30 16:19:01,544 :: INFO :: Fitting 8th batch =====================
+2024-10-30 16:19:32,382 :: INFO ::  --- finished 8th batch in 00:00:30
+2024-10-30 16:19:32,383 :: INFO :: Fitting 9th batch =====================
+2024-10-30 16:20:07,101 :: INFO ::  --- finished 9th batch in 00:00:34
+2024-10-30 16:20:07,102 :: INFO :: Fitting 10th batch =====================
+2024-10-30 16:20:40,277 :: INFO ::  --- finished 10th batch in 00:00:33
+2024-10-30 16:20:40,278 :: INFO :: Fitting 11th batch =====================
+2024-10-30 16:21:10,937 :: INFO ::  --- finished 11th batch in 00:00:30
+2024-10-30 16:21:10,938 :: INFO :: Fitting 12th batch =====================
+2024-10-30 16:21:44,514 :: INFO ::  --- finished 12th batch in 00:00:33
+2024-10-30 16:21:44,515 :: INFO :: Fitting 13th batch =====================
+2024-10-30 16:22:14,959 :: INFO ::  --- finished 13th batch in 00:00:30
+2024-10-30 16:22:14,960 :: INFO :: Fitting 14th batch =====================
+2024-10-30 16:22:47,916 :: INFO ::  --- finished 14th batch in 00:00:32
+2024-10-30 16:22:47,917 :: INFO :: Fitting 15th batch =====================
+2024-10-30 16:23:18,362 :: INFO ::  --- finished 15th batch in 00:00:30
+2024-10-30 16:23:18,363 :: INFO :: Fitting 16th batch =====================
+2024-10-30 16:23:44,188 :: INFO ::  --- finished 16th batch in 00:00:25
+2024-10-30 16:23:45,665 :: INFO :: Finished in 00:09:08
+2024-10-30 16:23:45,698 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS
+2024-10-30 16:23:45,699 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-30 16:23:46,097 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-10-30 16:23:46,098 :: INFO :: Fitting 0th batch =====================
+2024-10-30 16:24:19,399 :: INFO ::  --- finished 0th batch in 00:00:33
+2024-10-30 16:24:19,400 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:24:51,410 :: INFO ::  --- finished 1th batch in 00:00:32
+2024-10-30 16:24:51,410 :: INFO :: Fitting 2th batch =====================
+2024-10-30 16:25:26,881 :: INFO ::  --- finished 2th batch in 00:00:35
+2024-10-30 16:25:26,881 :: INFO :: Fitting 3th batch =====================
+2024-10-30 16:26:04,570 :: INFO ::  --- finished 3th batch in 00:00:37
+2024-10-30 16:26:04,571 :: INFO :: Fitting 4th batch =====================
+2024-10-30 16:26:40,471 :: INFO ::  --- finished 4th batch in 00:00:35
+2024-10-30 16:26:40,471 :: INFO :: Fitting 5th batch =====================
+2024-10-30 16:27:15,607 :: INFO ::  --- finished 5th batch in 00:00:35
+2024-10-30 16:27:15,608 :: INFO :: Fitting 6th batch =====================
+2024-10-30 16:27:47,352 :: INFO ::  --- finished 6th batch in 00:00:31
+2024-10-30 16:27:47,353 :: INFO :: Fitting 7th batch =====================
+2024-10-30 16:28:23,830 :: INFO ::  --- finished 7th batch in 00:00:36
+2024-10-30 16:28:23,831 :: INFO :: Fitting 8th batch =====================
+2024-10-30 16:28:58,185 :: INFO ::  --- finished 8th batch in 00:00:34
+2024-10-30 16:28:58,185 :: INFO :: Fitting 9th batch =====================
+2024-10-30 16:29:35,141 :: INFO ::  --- finished 9th batch in 00:00:36
+2024-10-30 16:29:35,142 :: INFO :: Fitting 10th batch =====================
+2024-10-30 16:30:06,620 :: INFO ::  --- finished 10th batch in 00:00:31
+2024-10-30 16:30:06,621 :: INFO :: Fitting 11th batch =====================
+2024-10-30 16:30:44,241 :: INFO ::  --- finished 11th batch in 00:00:37
+2024-10-30 16:30:44,242 :: INFO :: Fitting 12th batch =====================
+2024-10-30 16:31:17,211 :: INFO ::  --- finished 12th batch in 00:00:32
+2024-10-30 16:31:17,212 :: INFO :: Fitting 13th batch =====================
+2024-10-30 16:31:49,918 :: INFO ::  --- finished 13th batch in 00:00:32
+2024-10-30 16:31:49,924 :: INFO :: Fitting 14th batch =====================
+2024-10-30 16:32:23,097 :: INFO ::  --- finished 14th batch in 00:00:33
+2024-10-30 16:32:23,098 :: INFO :: Fitting 15th batch =====================
+2024-10-30 16:32:53,169 :: INFO ::  --- finished 15th batch in 00:00:30
+2024-10-30 16:32:53,170 :: INFO :: Fitting 16th batch =====================
+2024-10-30 16:33:19,551 :: INFO ::  --- finished 16th batch in 00:00:26
+2024-10-30 16:33:21,058 :: INFO :: Finished in 00:09:35
+2024-10-30 16:33:21,085 :: INFO :: >>>> (re)starting COSMOS_7DS_WFS
+2024-10-30 16:33:21,086 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-10-30 16:33:21,489 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-10-30 16:33:21,490 :: INFO :: Fitting 0th batch =====================
+2024-10-30 16:33:52,151 :: INFO ::  --- finished 0th batch in 00:00:30
+2024-10-30 16:33:52,152 :: INFO :: Fitting 1th batch =====================
+2024-10-30 16:34:26,234 :: INFO ::  --- finished 1th batch in 00:00:34
+2024-10-30 16:34:26,235 :: INFO :: Fitting 2th batch =====================
+2024-10-30 16:35:02,642 :: INFO ::  --- finished 2th batch in 00:00:36
+2024-10-30 16:35:02,643 :: INFO :: Fitting 3th batch =====================
+2024-10-30 16:35:34,034 :: INFO ::  --- finished 3th batch in 00:00:31
+2024-10-30 16:35:34,035 :: INFO :: Fitting 4th batch =====================
+2024-10-30 16:36:04,232 :: INFO ::  --- finished 4th batch in 00:00:30
+2024-10-30 16:36:04,233 :: INFO :: Fitting 5th batch =====================
+2024-10-30 16:36:35,584 :: INFO ::  --- finished 5th batch in 00:00:31
+2024-10-30 16:36:35,585 :: INFO :: Fitting 6th batch =====================
+2024-10-30 16:37:09,479 :: INFO ::  --- finished 6th batch in 00:00:33
+2024-10-30 16:37:09,479 :: INFO :: Fitting 7th batch =====================
+2024-10-30 16:37:40,777 :: INFO ::  --- finished 7th batch in 00:00:31
+2024-10-30 16:37:40,778 :: INFO :: Fitting 8th batch =====================
+2024-10-30 16:38:11,855 :: INFO ::  --- finished 8th batch in 00:00:31
+2024-10-30 16:38:11,855 :: INFO :: Fitting 9th batch =====================
+2024-10-30 16:38:41,786 :: INFO ::  --- finished 9th batch in 00:00:29
+2024-10-30 16:38:41,786 :: INFO :: Fitting 10th batch =====================
+2024-10-30 16:39:12,265 :: INFO ::  --- finished 10th batch in 00:00:30
+2024-10-30 16:39:12,265 :: INFO :: Fitting 11th batch =====================
+2024-10-30 16:39:52,613 :: INFO ::  --- finished 11th batch in 00:00:40
+2024-10-30 16:39:52,614 :: INFO :: Fitting 12th batch =====================
+2024-10-30 16:40:26,242 :: INFO ::  --- finished 12th batch in 00:00:33
+2024-10-30 16:40:26,243 :: INFO :: Fitting 13th batch =====================
+2024-10-30 16:41:04,362 :: INFO ::  --- finished 13th batch in 00:00:38
+2024-10-30 16:41:04,363 :: INFO :: Fitting 14th batch =====================
+2024-10-30 16:41:41,092 :: INFO ::  --- finished 14th batch in 00:00:36
+2024-10-30 16:41:41,093 :: INFO :: Fitting 15th batch =====================
+2024-10-30 16:42:12,935 :: INFO ::  --- finished 15th batch in 00:00:31
+2024-10-30 16:42:12,936 :: INFO :: Fitting 16th batch =====================
+2024-10-30 16:42:40,019 :: INFO ::  --- finished 16th batch in 00:00:27
+2024-10-30 16:42:41,310 :: INFO :: Finished in 00:09:20
+2024-10-31 13:59:51,891 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-10-31 13:59:51,915 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 13:59:52,060 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 13:59:52,061 :: INFO :: Fitting 0th batch =====================
+2024-10-31 14:00:39,523 :: INFO ::  --- finished 0th batch in 00:00:47
+2024-10-31 14:00:39,759 :: INFO :: Finished in 00:00:47
+2024-10-31 14:02:31,298 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep with MULTIPLE TEMPLATES
+2024-10-31 14:02:31,300 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 14:02:31,406 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 14:02:31,407 :: INFO :: Fitting 0th batch =====================
+2024-10-31 14:05:34,168 :: INFO ::  --- finished 0th batch in 00:03:02
+2024-10-31 14:05:34,411 :: INFO :: Finished in 00:03:03
+2024-10-31 14:53:13,231 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep (Testing PIT/CRPS calculation in oversampled p(z))
+2024-10-31 14:53:13,232 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 14:53:13,372 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 14:53:13,373 :: INFO :: Fitting 0th batch =====================
+2024-10-31 14:58:53,413 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep (Testing PIT/CRPS calculation in oversampled p(z))
+2024-10-31 14:58:53,414 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 14:58:53,519 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 14:58:53,519 :: INFO :: Fitting 0th batch =====================
+2024-10-31 15:05:02,745 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep (Testing PIT/CRPS calculation in oversampled p(z))
+2024-10-31 15:05:02,746 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:05:02,856 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 15:05:02,857 :: INFO :: Fitting 0th batch =====================
+2024-10-31 15:19:01,215 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep (Testing PIT/CRPS calculation in oversampled p(z))
+2024-10-31 15:19:01,230 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:19:01,355 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-10-31 15:19:01,356 :: INFO :: Fitting 0th batch =====================
+2024-10-31 15:19:54,618 :: INFO ::  --- finished 0th batch in 00:00:53
+2024-10-31 15:19:54,894 :: INFO :: Finished in 00:00:53

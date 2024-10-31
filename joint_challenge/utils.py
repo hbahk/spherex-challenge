@@ -854,7 +854,8 @@ def show_fit_single_template(self, id, id_is_idx=False, zshow=None, show_fnu=0, 
         return fig, data
     
 
-def pz_percentiles(self, percentiles=[2.5, 16, 50, 84, 97.5], oversample=5, selection=None):
+def pz_percentiles(self, percentiles=[2.5, 16, 50, 84, 97.5], oversample=5, selection=None,
+                   return_pit_crps=False):
     from eazy.utils import log_zgrid
     import scipy.interpolate 
     try:
@@ -892,8 +893,19 @@ def pz_percentiles(self, percentiles=[2.5, 16, 50, 84, 97.5], oversample=5, sele
 
     for j, i in enumerate(self.idx[ok]):
         zlimits[i,:] = np.interp(p100, pzcum[j, :], zgrid_zoom[1:])
-        
-    return zlimits
+    
+    if return_pit_crps:
+        pit = np.zeros((self.NOBJ), dtype=self.ARRAY_DTYPE)
+        crps = np.zeros((self.NOBJ), dtype=self.ARRAY_DTYPE)
+        for j, i in enumerate(self.idx[ok]):
+            pit[i] = np.interp(self.ZSPEC[i], zgrid_zoom[1:], pzcum[j,:])
+            hstepf = np.zeros_like(pzcum[j,:])
+            hstepf[zgrid_zoom[1:] > self.ZSPEC[i]] = 1
+            crps[i] = np.trapz((pzcum[j,:]-hstepf)**2, x=zgrid_zoom[1:])
+
+        return zlimits, pit, crps
+    else:
+        return zlimits
     
     
 def plot_comp_hexbin(
