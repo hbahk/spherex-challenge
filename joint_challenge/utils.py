@@ -853,6 +853,48 @@ def show_fit_single_template(self, id, id_is_idx=False, zshow=None, show_fnu=0, 
     else:
         return fig, data
     
+
+def pz_percentiles(self, percentiles=[2.5, 16, 50, 84, 97.5], oversample=5, selection=None):
+    from eazy.utils import log_zgrid
+    import scipy.interpolate 
+    try:
+        from scipy.integrate import cumtrapz
+    except ImportError:
+        from scipy.integrate import cumulative_trapezoid as cumtrapz
+
+    interpolator = scipy.interpolate.Akima1DInterpolator
+
+    p100 = np.array(percentiles)/100.
+    zlimits = np.zeros((self.NOBJ, p100.size), dtype=self.ARRAY_DTYPE)
+        
+    zr = [self.param['Z_MIN'], self.param['Z_MAX']]
+    zgrid_zoom = log_zgrid(zr=zr,dz=self.param['Z_STEP']/oversample)
+            
+    ok = self.zbest > self.zgrid[0]      
+    if selection is not None:
+        ok &= selection
+
+    if ok.sum() == 0:
+        print('pz_percentiles: No objects in selection')
+        
+    spl = interpolator(self.zgrid, self.lnp[ok,:], axis=1)
+
+    pz_zoom = np.exp(spl(zgrid_zoom))
+
+    # Akima1DInterpolator can get some NaNs at the end?
+    valid = np.isfinite(pz_zoom)
+    pz_zoom[~valid] = 0.
+
+    pzcum = cumtrapz(pz_zoom, x=zgrid_zoom, axis=1)
+
+    pzcmax = pzcum.max(axis=1)
+    pzcum = (pzcum.T / pzcmax).T
+
+    for j, i in enumerate(self.idx[ok]):
+        zlimits[i,:] = np.interp(p100, pzcum[j, :], zgrid_zoom[1:])
+        
+    return zlimits
+    
     
 def plot_comp_hexbin(
     z_spec,
@@ -980,7 +1022,7 @@ def plot_comp_hexbin(
                 np.log10(1+z_spec[z_cnd]), np.log10(1+z_phot[z_cnd]), c="k", s=0.5, alpha=0.5
             )
             if z_840 is not None and z_160 is not None:
-                yerr = sigz[z_cnd]/(1+z_phot[z_cnd])
+                yerr = sigz[z_cnd]*(1+z_phot[z_cnd])
                 ax.errorbar(np.log10(1+z_spec[z_cnd]), np.log10(1+z_phot[z_cnd]), yerr=yerr, fmt="o",
                             ms=3, lw=0.8, c="w", mec="k", ecolor="k")
             else:
