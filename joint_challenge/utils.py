@@ -1,11 +1,16 @@
 import numpy as np
 import time
 import multiprocessing as mp
+from pathlib import Path
 from tqdm import tqdm
 from eazy import utils
 from matplotlib import pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from matplotlib.colors import LogNorm
+from astropy.io import fits
+from astropy.table import Table
+import gc
+import eazy
 
 MULTIPROCESSING_TIMEOUT = 3600
 MIN_VALID_FILTERS = 1
@@ -906,7 +911,118 @@ def pz_percentiles(self, percentiles=[2.5, 16, 50, 84, 97.5], oversample=5, sele
         return zlimits, pit, crps
     else:
         return zlimits
-    
+
+
+def fit_and_save_result_prior(
+    params, tempfilt, logger, n_proc=1, rerun=False, run_single_template=True,
+    translate_file=None,
+):
+    start = time.time()
+    logger.info(f"Running fit_and_save_result_prior with {n_proc} processes")
+
+    dir_output = Path(params["OUTPUT_DIRECTORY"])
+
+    base = Table.read(params["CATALOG_FILE"])
+    Ncat = len(base)
+    Nbatch = np.ceil(Ncat / 10000).astype(int)
+
+    logger.info(f"Fitting {Ncat} objects in {Nbatch} batches ==")
+
+    for i in range(Nbatch):
+        iter_start = time.time()
+        outtabpath = dir_output / f"output{i:02d}.fits"
+        lnptabpath = dir_output / f"lnp{i:02d}.fits"
+
+        if (outtabpath.exists() and lnptabpath.exists()) and (not rerun):
+            logger.info(f"{i}th batch already exists ==============")
+        else:
+            logger.info(f"Fitting {i}th batch =====================")
+            start_id = i * 10000
+            end_id = (i + 1) * 10000
+
+            # initialize eazy object
+            # (if initialized outside the loop, wiredly, it uses more and more processes in fit_at_zbest)
+            ez = eazy.photoz.PhotoZ(
+                param_file=None,
+                translate_file=translate_file,
+                zeropoint_file=None,
+                params=params,
+                tempfilt=tempfilt,
+            )
+
+            if end_id > len(ez.idx):
+                end_id = len(ez.idx)
+
+            if run_single_template:
+                ez.ZML_WITH_PRIOR = True
+                fit_catalog_single_template(
+                    ez, ez.idx[start_id:end_id], n_proc=n_proc, prior=True
+                )
+                ez.ZML_WITH_PRIOR = True
+                fit_at_zbest_single_template(ez, prior=True, nproc=1)
+            else:
+                ez.fit_catalog(ez.idx[start_id:end_id], n_proc=n_proc, prior=True)
+                ez.ZML_WITH_PRIOR = True
+                ez.fit_at_zbest(prior=True, nproc=1)
+
+            try:
+                idxarr = np.arange(len(ez.idx))
+                selection = (idxarr >= start_id) & (idxarr < end_id)
+                zlimits, pit, crps = pz_percentiles(
+                    ez,
+                    percentiles=[2.5, 16, 50, 84, 97.5],
+                    oversample=5,
+                    selection=selection,
+                    return_pit_crps=True,
+                )
+            except Exception as e:
+                logger.debug("Couldn't compute pz_percentiles")
+                logger.debug(e)
+                zlimits = np.zeros((ez.NOBJ, 5), dtype=ez.ARRAY_DTYPE) - 1
+
+            tab = Table()
+            tab["id"] = ez.OBJID
+            tab["z_phot"] = ez.zbest
+            tab["z_phot_chi2"] = ez.chi2_best
+            tab["z025"] = zlimits[:, 0]
+            tab["z160"] = zlimits[:, 1]
+            tab["z500"] = zlimits[:, 2]
+            tab["z840"] = zlimits[:, 3]
+            tab["z975"] = zlimits[:, 4]
+            tab["pit"] = pit
+            tab["crps"] = crps
+
+            tab[start_id:end_id].write(outtabpath, overwrite=True)
+            phdu = fits.PrimaryHDU(data=ez.lnp[start_id:end_id])
+            gridhdu = fits.ImageHDU(data=ez.zgrid)
+            hdul = fits.HDUList([phdu, gridhdu])
+            hdul.writeto(lnptabpath, overwrite=True)
+            del tab, phdu, gridhdu, hdul
+            gc.collect()
+            iter_end = time.time()
+            time_taken_hms = time.strftime(
+                "%H:%M:%S", time.gmtime(iter_end - iter_start)
+            )
+            logger.info(f" --- finished {i}th batch in {time_taken_hms}")
+
+    colnames = ["z_phot", "z_phot_chi2", "z160", "z840", "pit", "crps", "id"]
+    for label in colnames:
+        base[label] = np.empty(len(base), dtype=float)
+
+    for i in range(Nbatch):
+        start_id = i * 10000
+        end_id = (i + 1) * 10000 if i < Nbatch - 1 else len(base)
+
+        outtab = Table.read(dir_output / f"output{i:02d}.fits")
+        for label in colnames:
+            base[label][start_id:end_id] = outtab[label]
+
+    base.write(dir_output / "result.fits", overwrite=True)
+
+    end = time.time()
+    time_taken_hms = time.strftime("%H:%M:%S", time.gmtime(end - start))
+    logger.info(f"Finished in {time_taken_hms}")
+
     
 def plot_comp_hexbin(
     z_spec,
