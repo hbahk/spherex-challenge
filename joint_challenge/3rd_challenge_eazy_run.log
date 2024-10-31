@@ -484,3 +484,7 @@
 2024-10-31 15:19:01,356 :: INFO :: Fitting 0th batch =====================
 2024-10-31 15:19:54,618 :: INFO ::  --- finished 0th batch in 00:00:53
 2024-10-31 15:19:54,894 :: INFO :: Finished in 00:00:53
+2024-10-31 15:24:36,408 :: INFO :: >>>> (re)starting GAMA_COSMOS_7DS_SPHEREx
+2024-10-31 15:24:36,409 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 15:24:49,910 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-31 15:24:49,911 :: INFO :: Fitting 0th batch =====================
