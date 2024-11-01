@@ -1245,7 +1245,8 @@ def plot_comp_hexbin(
         va="bottom",
         transform=ax.transAxes,
     )
-    ax.set_title(title)
+    if title:
+        ax.set_title(title)
 
     if not no_hexbin:
         cb = plt.colorbar(hb, cax=cax, label="counts")

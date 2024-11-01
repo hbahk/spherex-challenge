@@ -608,3 +608,271 @@
 2024-10-31 17:15:18,494 :: INFO :: Fitting 0th batch =====================
 2024-10-31 17:25:39,569 :: INFO ::  --- finished 0th batch in 00:10:21
 2024-10-31 17:25:39,570 :: INFO :: Fitting 1th batch =====================
+2024-10-31 17:37:23,716 :: INFO ::  --- finished 1th batch in 00:11:44
+2024-10-31 17:37:23,717 :: INFO :: Fitting 2th batch =====================
+2024-10-31 17:51:24,662 :: INFO ::  --- finished 2th batch in 00:14:00
+2024-10-31 17:51:24,663 :: INFO :: Fitting 3th batch =====================
+2024-10-31 18:04:04,695 :: INFO ::  --- finished 3th batch in 00:12:40
+2024-10-31 18:04:04,696 :: INFO :: Fitting 4th batch =====================
+2024-10-31 18:15:12,780 :: INFO ::  --- finished 4th batch in 00:11:08
+2024-10-31 18:15:12,781 :: INFO :: Fitting 5th batch =====================
+2024-10-31 18:25:59,002 :: INFO ::  --- finished 5th batch in 00:10:46
+2024-10-31 18:25:59,003 :: INFO :: Fitting 6th batch =====================
+2024-10-31 18:38:25,900 :: INFO ::  --- finished 6th batch in 00:12:26
+2024-10-31 18:38:25,901 :: INFO :: Fitting 7th batch =====================
+2024-10-31 18:52:41,422 :: INFO ::  --- finished 7th batch in 00:14:15
+2024-10-31 18:52:41,424 :: INFO :: Fitting 8th batch =====================
+2024-10-31 19:05:15,252 :: INFO ::  --- finished 8th batch in 00:12:33
+2024-10-31 19:05:15,253 :: INFO :: Fitting 9th batch =====================
+2024-10-31 19:16:13,265 :: INFO ::  --- finished 9th batch in 00:10:58
+2024-10-31 19:16:13,266 :: INFO :: Fitting 10th batch =====================
+2024-10-31 19:30:04,606 :: INFO ::  --- finished 10th batch in 00:13:51
+2024-10-31 19:30:04,607 :: INFO :: Fitting 11th batch =====================
+2024-10-31 19:43:52,674 :: INFO ::  --- finished 11th batch in 00:13:48
+2024-10-31 19:43:52,675 :: INFO :: Fitting 12th batch =====================
+2024-10-31 19:55:31,693 :: INFO ::  --- finished 12th batch in 00:11:39
+2024-10-31 19:55:31,694 :: INFO :: Fitting 13th batch =====================
+2024-10-31 20:06:32,700 :: INFO ::  --- finished 13th batch in 00:11:01
+2024-10-31 20:06:32,717 :: INFO :: Fitting 14th batch =====================
+2024-10-31 20:20:01,872 :: INFO ::  --- finished 14th batch in 00:13:29
+2024-10-31 20:20:01,891 :: INFO :: Fitting 15th batch =====================
+2024-10-31 20:32:41,498 :: INFO ::  --- finished 15th batch in 00:12:39
+2024-10-31 20:32:41,508 :: INFO :: Fitting 16th batch =====================
+2024-10-31 20:43:50,450 :: INFO ::  --- finished 16th batch in 00:11:08
+2024-10-31 20:43:50,451 :: INFO :: Fitting 17th batch =====================
+2024-10-31 20:57:19,464 :: INFO ::  --- finished 17th batch in 00:13:29
+2024-10-31 20:57:19,473 :: INFO :: Fitting 18th batch =====================
+2024-10-31 21:09:48,670 :: INFO ::  --- finished 18th batch in 00:12:29
+2024-10-31 21:09:48,671 :: INFO :: Fitting 19th batch =====================
+2024-10-31 21:21:08,768 :: INFO ::  --- finished 19th batch in 00:11:20
+2024-10-31 21:21:08,782 :: INFO :: Fitting 20th batch =====================
+2024-10-31 21:35:12,603 :: INFO ::  --- finished 20th batch in 00:14:03
+2024-10-31 21:35:12,604 :: INFO :: Fitting 21th batch =====================
+2024-10-31 21:41:11,926 :: INFO ::  --- finished 21th batch in 00:05:59
+2024-10-31 21:41:20,198 :: INFO :: Finished in 04:26:04
+2024-10-31 21:41:20,294 :: INFO :: >>>> (re)starting GAMA_COSMOS_SPHEREx
+2024-10-31 21:41:20,295 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-10-31 21:41:21,918 :: INFO :: Multiply flux errors by 1.50 ================
+2024-10-31 21:41:21,918 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-31 21:41:22,208 :: INFO :: Fitting 210165 objects in 22 batches ==
+2024-10-31 21:41:22,209 :: INFO :: Fitting 0th batch =====================
+2024-10-31 21:51:58,810 :: INFO ::  --- finished 0th batch in 00:10:36
+2024-10-31 21:51:58,823 :: INFO :: Fitting 1th batch =====================
+2024-10-31 22:01:05,809 :: INFO ::  --- finished 1th batch in 00:09:06
+2024-10-31 22:01:05,822 :: INFO :: Fitting 2th batch =====================
+2024-10-31 22:13:37,513 :: INFO ::  --- finished 2th batch in 00:12:31
+2024-10-31 22:13:37,523 :: INFO :: Fitting 3th batch =====================
+2024-10-31 22:25:48,113 :: INFO ::  --- finished 3th batch in 00:12:10
+2024-10-31 22:25:48,114 :: INFO :: Fitting 4th batch =====================
+2024-10-31 22:36:12,456 :: INFO ::  --- finished 4th batch in 00:10:24
+2024-10-31 22:36:12,457 :: INFO :: Fitting 5th batch =====================
+2024-10-31 22:48:10,200 :: INFO ::  --- finished 5th batch in 00:11:57
+2024-10-31 22:48:10,201 :: INFO :: Fitting 6th batch =====================
+2024-10-31 23:00:38,337 :: INFO ::  --- finished 6th batch in 00:12:28
+2024-10-31 23:00:38,347 :: INFO :: Fitting 7th batch =====================
+2024-10-31 23:11:44,987 :: INFO ::  --- finished 7th batch in 00:11:06
+2024-10-31 23:11:44,996 :: INFO :: Fitting 8th batch =====================
+2024-10-31 23:22:58,944 :: INFO ::  --- finished 8th batch in 00:11:13
+2024-10-31 23:22:58,956 :: INFO :: Fitting 9th batch =====================
+2024-10-31 23:34:01,971 :: INFO ::  --- finished 9th batch in 00:11:03
+2024-10-31 23:34:01,980 :: INFO :: Fitting 10th batch =====================
+2024-10-31 23:44:00,837 :: INFO ::  --- finished 10th batch in 00:09:58
+2024-10-31 23:44:00,837 :: INFO :: Fitting 11th batch =====================
+2024-10-31 23:55:19,857 :: INFO ::  --- finished 11th batch in 00:11:19
+2024-10-31 23:55:19,866 :: INFO :: Fitting 12th batch =====================
+2024-11-01 00:07:28,342 :: INFO ::  --- finished 12th batch in 00:12:08
+2024-11-01 00:07:28,348 :: INFO :: Fitting 13th batch =====================
+2024-11-01 00:17:09,155 :: INFO ::  --- finished 13th batch in 00:09:40
+2024-11-01 00:17:09,156 :: INFO :: Fitting 14th batch =====================
+2024-11-01 00:26:42,832 :: INFO ::  --- finished 14th batch in 00:09:33
+2024-11-01 00:26:42,833 :: INFO :: Fitting 15th batch =====================
+2024-11-01 00:40:10,016 :: INFO ::  --- finished 15th batch in 00:13:27
+2024-11-01 00:40:10,022 :: INFO :: Fitting 16th batch =====================
+2024-11-01 00:52:27,494 :: INFO ::  --- finished 16th batch in 00:12:17
+2024-11-01 00:52:27,495 :: INFO :: Fitting 17th batch =====================
+2024-11-01 01:02:28,841 :: INFO ::  --- finished 17th batch in 00:10:01
+2024-11-01 01:02:28,849 :: INFO :: Fitting 18th batch =====================
+2024-11-01 01:16:20,939 :: INFO ::  --- finished 18th batch in 00:13:52
+2024-11-01 01:16:20,948 :: INFO :: Fitting 19th batch =====================
+2024-11-01 01:28:56,459 :: INFO ::  --- finished 19th batch in 00:12:35
+2024-11-01 01:28:56,460 :: INFO :: Fitting 20th batch =====================
+2024-11-01 01:39:15,645 :: INFO ::  --- finished 20th batch in 00:10:19
+2024-11-01 01:39:15,655 :: INFO :: Fitting 21th batch =====================
+2024-11-01 01:45:50,644 :: INFO ::  --- finished 21th batch in 00:06:34
+2024-11-01 01:45:57,729 :: INFO :: Finished in 04:04:37
+2024-11-01 01:45:57,828 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS_SPHEREx_deep
+2024-11-01 01:45:57,869 :: INFO :: Running fit_and_save_result_prior with 1 processes
+2024-11-01 01:45:58,008 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 01:45:58,009 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-11-01 01:45:58,023 :: INFO :: Fitting 1000 objects in 1 batches ==
+2024-11-01 01:45:58,023 :: INFO :: Fitting 0th batch =====================
+2024-11-01 01:46:44,347 :: INFO ::  --- finished 0th batch in 00:00:46
+2024-11-01 01:46:44,583 :: INFO :: Finished in 00:00:46
+2024-11-01 01:46:44,755 :: INFO :: >>>> (re)starting GAMA_7DS_RIS
+2024-11-01 01:46:44,756 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-11-01 01:46:44,877 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 01:46:44,878 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-11-01 01:46:44,893 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-11-01 01:46:44,893 :: INFO :: Fitting 0th batch =====================
+2024-11-01 01:47:04,344 :: INFO ::  --- finished 0th batch in 00:00:19
+2024-11-01 01:47:04,345 :: INFO :: Fitting 1th batch =====================
+2024-11-01 01:47:23,424 :: INFO ::  --- finished 1th batch in 00:00:19
+2024-11-01 01:47:23,425 :: INFO :: Fitting 2th batch =====================
+2024-11-01 01:47:41,311 :: INFO ::  --- finished 2th batch in 00:00:17
+2024-11-01 01:47:41,312 :: INFO :: Fitting 3th batch =====================
+2024-11-01 01:48:00,448 :: INFO ::  --- finished 3th batch in 00:00:19
+2024-11-01 01:48:00,448 :: INFO :: Fitting 4th batch =====================
+2024-11-01 01:48:13,112 :: INFO ::  --- finished 4th batch in 00:00:12
+2024-11-01 01:48:13,277 :: INFO :: Finished in 00:01:28
+2024-11-01 01:48:13,306 :: INFO :: >>>> (re)starting GAMA_7DS_IMS
+2024-11-01 01:48:13,307 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-11-01 01:48:13,432 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 01:48:13,432 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-11-01 01:48:13,449 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-11-01 01:48:13,450 :: INFO :: Fitting 0th batch =====================
+2024-11-01 01:48:34,134 :: INFO ::  --- finished 0th batch in 00:00:20
+2024-11-01 01:48:34,135 :: INFO :: Fitting 1th batch =====================
+2024-11-01 01:48:54,064 :: INFO ::  --- finished 1th batch in 00:00:19
+2024-11-01 01:48:54,065 :: INFO :: Fitting 2th batch =====================
+2024-11-01 01:49:14,615 :: INFO ::  --- finished 2th batch in 00:00:20
+2024-11-01 01:49:14,615 :: INFO :: Fitting 3th batch =====================
+2024-11-01 01:49:33,262 :: INFO ::  --- finished 3th batch in 00:00:18
+2024-11-01 01:49:33,263 :: INFO :: Fitting 4th batch =====================
+2024-11-01 01:49:45,247 :: INFO ::  --- finished 4th batch in 00:00:11
+2024-11-01 01:49:45,409 :: INFO :: Finished in 00:01:32
+2024-11-01 01:49:45,441 :: INFO :: >>>> (re)starting GAMA_7DS_WFS
+2024-11-01 01:49:45,442 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-11-01 01:49:45,565 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 01:49:45,565 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-11-01 01:49:45,581 :: INFO :: Fitting 44124 objects in 5 batches ==
+2024-11-01 01:49:45,581 :: INFO :: Fitting 0th batch =====================
+2024-11-01 01:50:04,045 :: INFO ::  --- finished 0th batch in 00:00:18
+2024-11-01 01:50:04,046 :: INFO :: Fitting 1th batch =====================
+2024-11-01 01:50:23,206 :: INFO ::  --- finished 1th batch in 00:00:19
+2024-11-01 01:50:23,207 :: INFO :: Fitting 2th batch =====================
+2024-11-01 01:50:42,322 :: INFO ::  --- finished 2th batch in 00:00:19
+2024-11-01 01:50:42,329 :: INFO :: Fitting 3th batch =====================
+2024-11-01 01:51:03,111 :: INFO ::  --- finished 3th batch in 00:00:20
+2024-11-01 01:51:03,112 :: INFO :: Fitting 4th batch =====================
+2024-11-01 01:51:14,887 :: INFO ::  --- finished 4th batch in 00:00:11
+2024-11-01 01:51:15,049 :: INFO :: Finished in 00:01:29
+2024-11-01 01:51:15,097 :: INFO :: >>>> (re)starting COSMOS_7DS_RIS
+2024-11-01 01:51:15,114 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-11-01 01:51:15,531 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 01:51:15,532 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-11-01 01:51:15,627 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-11-01 01:51:15,628 :: INFO :: Fitting 0th batch =====================
+2024-11-01 01:51:42,023 :: INFO ::  --- finished 0th batch in 00:00:26
+2024-11-01 01:51:42,024 :: INFO :: Fitting 1th batch =====================
+2024-11-01 01:52:08,828 :: INFO ::  --- finished 1th batch in 00:00:26
+2024-11-01 01:52:08,829 :: INFO :: Fitting 2th batch =====================
+2024-11-01 01:52:38,029 :: INFO ::  --- finished 2th batch in 00:00:29
+2024-11-01 01:52:38,038 :: INFO :: Fitting 3th batch =====================
+2024-11-01 01:53:04,877 :: INFO ::  --- finished 3th batch in 00:00:26
+2024-11-01 01:53:04,878 :: INFO :: Fitting 4th batch =====================
+2024-11-01 01:53:32,767 :: INFO ::  --- finished 4th batch in 00:00:27
+2024-11-01 01:53:32,768 :: INFO :: Fitting 5th batch =====================
+2024-11-01 01:54:00,635 :: INFO ::  --- finished 5th batch in 00:00:27
+2024-11-01 01:54:00,636 :: INFO :: Fitting 6th batch =====================
+2024-11-01 01:54:32,748 :: INFO ::  --- finished 6th batch in 00:00:32
+2024-11-01 01:54:32,749 :: INFO :: Fitting 7th batch =====================
+2024-11-01 01:55:02,429 :: INFO ::  --- finished 7th batch in 00:00:29
+2024-11-01 01:55:02,430 :: INFO :: Fitting 8th batch =====================
+2024-11-01 01:55:30,783 :: INFO ::  --- finished 8th batch in 00:00:28
+2024-11-01 01:55:30,783 :: INFO :: Fitting 9th batch =====================
+2024-11-01 01:55:58,059 :: INFO ::  --- finished 9th batch in 00:00:27
+2024-11-01 01:55:58,060 :: INFO :: Fitting 10th batch =====================
+2024-11-01 01:56:25,999 :: INFO ::  --- finished 10th batch in 00:00:27
+2024-11-01 01:56:26,013 :: INFO :: Fitting 11th batch =====================
+2024-11-01 01:56:52,505 :: INFO ::  --- finished 11th batch in 00:00:26
+2024-11-01 01:56:52,506 :: INFO :: Fitting 12th batch =====================
+2024-11-01 01:57:18,137 :: INFO ::  --- finished 12th batch in 00:00:25
+2024-11-01 01:57:18,138 :: INFO :: Fitting 13th batch =====================
+2024-11-01 01:57:44,119 :: INFO ::  --- finished 13th batch in 00:00:25
+2024-11-01 01:57:44,120 :: INFO :: Fitting 14th batch =====================
+2024-11-01 01:58:17,525 :: INFO ::  --- finished 14th batch in 00:00:33
+2024-11-01 01:58:17,526 :: INFO :: Fitting 15th batch =====================
+2024-11-01 01:58:48,360 :: INFO ::  --- finished 15th batch in 00:00:30
+2024-11-01 01:58:48,361 :: INFO :: Fitting 16th batch =====================
+2024-11-01 01:59:13,266 :: INFO ::  --- finished 16th batch in 00:00:24
+2024-11-01 01:59:14,383 :: INFO :: Finished in 00:07:59
+2024-11-01 01:59:14,412 :: INFO :: >>>> (re)starting COSMOS_7DS_IMS
+2024-11-01 01:59:14,413 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-11-01 01:59:14,828 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 01:59:14,829 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-11-01 01:59:14,920 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-11-01 01:59:14,921 :: INFO :: Fitting 0th batch =====================
+2024-11-01 01:59:46,175 :: INFO ::  --- finished 0th batch in 00:00:31
+2024-11-01 01:59:46,175 :: INFO :: Fitting 1th batch =====================
+2024-11-01 02:00:18,211 :: INFO ::  --- finished 1th batch in 00:00:32
+2024-11-01 02:00:18,212 :: INFO :: Fitting 2th batch =====================
+2024-11-01 02:00:51,455 :: INFO ::  --- finished 2th batch in 00:00:33
+2024-11-01 02:00:51,456 :: INFO :: Fitting 3th batch =====================
+2024-11-01 02:01:23,709 :: INFO ::  --- finished 3th batch in 00:00:32
+2024-11-01 02:01:23,710 :: INFO :: Fitting 4th batch =====================
+2024-11-01 02:01:55,132 :: INFO ::  --- finished 4th batch in 00:00:31
+2024-11-01 02:01:55,133 :: INFO :: Fitting 5th batch =====================
+2024-11-01 02:02:25,874 :: INFO ::  --- finished 5th batch in 00:00:30
+2024-11-01 02:02:25,875 :: INFO :: Fitting 6th batch =====================
+2024-11-01 02:02:57,268 :: INFO ::  --- finished 6th batch in 00:00:31
+2024-11-01 02:02:57,268 :: INFO :: Fitting 7th batch =====================
+2024-11-01 02:03:26,847 :: INFO ::  --- finished 7th batch in 00:00:29
+2024-11-01 02:03:26,848 :: INFO :: Fitting 8th batch =====================
+2024-11-01 02:03:57,684 :: INFO ::  --- finished 8th batch in 00:00:30
+2024-11-01 02:03:57,685 :: INFO :: Fitting 9th batch =====================
+2024-11-01 02:04:27,331 :: INFO ::  --- finished 9th batch in 00:00:29
+2024-11-01 02:04:27,332 :: INFO :: Fitting 10th batch =====================
+2024-11-01 02:04:57,995 :: INFO ::  --- finished 10th batch in 00:00:30
+2024-11-01 02:04:57,995 :: INFO :: Fitting 11th batch =====================
+2024-11-01 02:05:27,823 :: INFO ::  --- finished 11th batch in 00:00:29
+2024-11-01 02:05:27,824 :: INFO :: Fitting 12th batch =====================
+2024-11-01 02:05:59,389 :: INFO ::  --- finished 12th batch in 00:00:31
+2024-11-01 02:05:59,390 :: INFO :: Fitting 13th batch =====================
+2024-11-01 02:06:30,178 :: INFO ::  --- finished 13th batch in 00:00:30
+2024-11-01 02:06:30,179 :: INFO :: Fitting 14th batch =====================
+2024-11-01 02:07:07,507 :: INFO ::  --- finished 14th batch in 00:00:37
+2024-11-01 02:07:07,508 :: INFO :: Fitting 15th batch =====================
+2024-11-01 02:07:44,357 :: INFO ::  --- finished 15th batch in 00:00:36
+2024-11-01 02:07:44,358 :: INFO :: Fitting 16th batch =====================
+2024-11-01 02:08:17,402 :: INFO ::  --- finished 16th batch in 00:00:33
+2024-11-01 02:08:19,333 :: INFO :: Finished in 00:09:04
+2024-11-01 02:08:19,401 :: INFO :: >>>> (re)starting COSMOS_7DS_WFS
+2024-11-01 02:08:19,401 :: INFO :: Running fit_and_save_result_prior with 40 processes
+2024-11-01 02:08:19,837 :: INFO :: Multiply flux errors by 1.50 ================
+2024-11-01 02:08:19,838 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-11-01 02:08:19,939 :: INFO :: Fitting 166041 objects in 17 batches ==
+2024-11-01 02:08:19,940 :: INFO :: Fitting 0th batch =====================
+2024-11-01 02:08:57,649 :: INFO ::  --- finished 0th batch in 00:00:37
+2024-11-01 02:08:57,650 :: INFO :: Fitting 1th batch =====================
+2024-11-01 02:09:35,940 :: INFO ::  --- finished 1th batch in 00:00:38
+2024-11-01 02:09:35,941 :: INFO :: Fitting 2th batch =====================
+2024-11-01 02:10:14,853 :: INFO ::  --- finished 2th batch in 00:00:38
+2024-11-01 02:10:14,854 :: INFO :: Fitting 3th batch =====================
+2024-11-01 02:10:49,949 :: INFO ::  --- finished 3th batch in 00:00:35
+2024-11-01 02:10:49,954 :: INFO :: Fitting 4th batch =====================
+2024-11-01 02:11:22,895 :: INFO ::  --- finished 4th batch in 00:00:32
+2024-11-01 02:11:22,896 :: INFO :: Fitting 5th batch =====================
+2024-11-01 02:11:56,008 :: INFO ::  --- finished 5th batch in 00:00:33
+2024-11-01 02:11:56,009 :: INFO :: Fitting 6th batch =====================
+2024-11-01 02:12:29,595 :: INFO ::  --- finished 6th batch in 00:00:33
+2024-11-01 02:12:29,596 :: INFO :: Fitting 7th batch =====================
+2024-11-01 02:13:02,124 :: INFO ::  --- finished 7th batch in 00:00:32
+2024-11-01 02:13:02,125 :: INFO :: Fitting 8th batch =====================
+2024-11-01 02:13:39,574 :: INFO ::  --- finished 8th batch in 00:00:37
+2024-11-01 02:13:39,575 :: INFO :: Fitting 9th batch =====================
+2024-11-01 02:14:14,602 :: INFO ::  --- finished 9th batch in 00:00:35
+2024-11-01 02:14:14,612 :: INFO :: Fitting 10th batch =====================
+2024-11-01 02:14:52,641 :: INFO ::  --- finished 10th batch in 00:00:38
+2024-11-01 02:14:52,642 :: INFO :: Fitting 11th batch =====================
+2024-11-01 02:15:25,367 :: INFO ::  --- finished 11th batch in 00:00:32
+2024-11-01 02:15:25,368 :: INFO :: Fitting 12th batch =====================
+2024-11-01 02:15:59,162 :: INFO ::  --- finished 12th batch in 00:00:33
+2024-11-01 02:15:59,163 :: INFO :: Fitting 13th batch =====================
+2024-11-01 02:16:31,628 :: INFO ::  --- finished 13th batch in 00:00:32
+2024-11-01 02:16:31,629 :: INFO :: Fitting 14th batch =====================
+2024-11-01 02:17:10,897 :: INFO ::  --- finished 14th batch in 00:00:39
+2024-11-01 02:17:10,898 :: INFO :: Fitting 15th batch =====================
+2024-11-01 02:17:44,898 :: INFO ::  --- finished 15th batch in 00:00:34
+2024-11-01 02:17:44,913 :: INFO :: Fitting 16th batch =====================
+2024-11-01 02:18:14,708 :: INFO ::  --- finished 16th batch in 00:00:29
+2024-11-01 02:18:16,796 :: INFO :: Finished in 00:09:57
